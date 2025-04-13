@@ -118,7 +118,6 @@ header p {
 .section1 img {
     position: absolute;
     opacity: 35%;
-    margin-top: 15%;
     max-width: 100vw;
 }
 
@@ -293,7 +292,7 @@ $font-small-mobile: 0.875rem; // Small text
 
    .top {
     gap: 10px;
-    top: 12%;
+    top: 15%;
    }
 
    .top a {
@@ -310,7 +309,7 @@ $font-small-mobile: 0.875rem; // Small text
 
    header p {
     font-size: $font-p-mobile;
-    top: 12%;
+    top: 15%;
    }
    
     h1 {
