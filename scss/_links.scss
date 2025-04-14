@@ -1,0 +1,17 @@
+@mixin link-style($color) {
+    color: $color;
+    text-decoration: none;
+  }
+  
+
+// Mixin for hover rise effect
+@mixin hover-rise($distance: 5px, $duration: 0.4s) {
+    display: inline-block;
+    transition: transform $duration ease, box-shadow $duration ease;
+  
+    &:hover {
+      transform: translateY(-$distance);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      text-decoration: none !important;
+    }
+  }

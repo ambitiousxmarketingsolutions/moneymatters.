@@ -1,0 +1,25 @@
+@mixin center($type: both) {
+    @if $type == both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} @else if $type == horizontal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} @else if $type == vertical {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+}
+
+@mixin flex {
+    display: flex;
+  }
+  
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+  }

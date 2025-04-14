@@ -9,52 +9,12 @@ html {
 }
 
 
-@mixin center($type: both) {
-    @if $type == both {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} @else if $type == horizontal {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-} @else if $type == vertical {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-}
+@import 'positioning';
 
-@mixin link-style($color) {
-    color: $color;
-    text-decoration: none;
-  }
-  
+@import 'links';
 
-// Mixin for hover rise effect
-@mixin hover-rise($distance: 5px, $duration: 0.4s) {
-    display: inline-block;
-    transition: transform $duration ease, box-shadow $duration ease;
-  
-    &:hover {
-      transform: translateY(-$distance);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      text-decoration: none !important;
-    }
-  }
+@import 'mobile-font-sizes';
 
-
-@mixin flex {
-    display: flex;
-  }
-  
-@mixin flex-column {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
 
 h1 {
     @include center(horizontal);
@@ -256,23 +216,6 @@ header p {
   .credits a {
     margin-left: 15px;
   }
-  
-  
-  
-
-
-// Font sizes for mobile (base: 320px–480px screens)
-$font-h1-mobile: 3rem;      
-$font-h2-mobile: 1.25rem;   // ~28px
-$font-h3-mobile: 0.95rem;    // ~24px
-$font-h4-mobile: 1.25rem;   // ~20px
-$font-h5-mobile: 1.125rem;  // ~18px
-$font-h6-mobile: 1rem;      // ~16px
-
-$font-p-mobile: 0.95rem;       // Paragraph text
-$font-a-mobile: 0.8rem;       // Links
-$font-li-mobile: 1rem;      // List items
-$font-small-mobile: 0.875rem; // Small text
 
 
 @media screen and (max-width: 768px) {
@@ -311,7 +254,7 @@ $font-small-mobile: 0.875rem; // Small text
 
    header p {
     font-size: $font-p-mobile;
-    top: 15%;
+    top: 15.5%;
    }
    
     h1 {
@@ -339,7 +282,7 @@ $font-small-mobile: 0.875rem; // Small text
     gap: 5%;
    }
 
-   .tools-container p {
+   .tools-container div a p {
     font-size: $font-a-mobile;
    }
 
@@ -371,8 +314,21 @@ $font-small-mobile: 0.875rem; // Small text
     margin-top: 10%;
    }
 
+   .section4 a h3 {
+    font-size: $font-h3-mobile;
+   }
+
+   .section4 a p {
+    font-size: $font-p-mobile;
+   }
+
    .section5 {
     margin-top: 5%;
+   }
+
+   footer p {
+    margin-left: 5%;
+    font-size: $font-p-mobile;
    }
 
    .credits p {
