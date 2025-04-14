@@ -119,9 +119,10 @@ h1 {
   }
 
   footer nav {
-    @include flex-column();
+    @include flex();
+    margin-left: 5%;
+    margin-top: 2.5%;
     gap: 15px;
-    margin-left: 75%;
   }
 
   .credits {
@@ -132,3 +133,67 @@ h1 {
   .credits a {
     margin-left: 15px;
   }
+
+  @media screen and (max-width: 768px) {
+    
+    html {
+     overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: $font-h1-mobile;
+    }
+
+    h2 {
+        font-size: $font-h2-mobile;
+    }
+
+    .section1 h2, .section2 div h2 {
+        font-size: $font-h2-mobile;
+    }
+
+    h3 {
+        font-size: $font-h3-mobile;
+    }
+
+    p {
+        font-size: $font-p-mobile;
+    }
+
+    .top {
+        gap: 10px;
+        top: 2%;
+       }
+    
+       .top a {
+        font-size: 12px !important;
+       }
+
+       header p {
+        font-size: $font-p-mobile;
+        top: 3.5%;
+       }
+
+    .section1 {
+        margin-top: 20%;
+    }
+
+    .section2 div img {
+        width: 65%;
+    }
+
+    footer p {
+        margin-left: 5%;
+        font-size: $font-p-mobile;
+       }
+    
+       .credits p {
+        font-size: $font-p-mobile;
+       }
+    
+    
+       .credits a {
+        margin-left: 5px;
+        font-size: $font-a-mobile;
+      }
+}

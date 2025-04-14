@@ -137,9 +137,9 @@ footer p {
 
 footer nav {
   display: flex;
-  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 2.5%;
   gap: 15px;
-  margin-left: 75%;
 }
 
 .credits {
@@ -151,4 +151,53 @@ footer nav {
 
 .credits a {
   margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .section1 h2, .section2 div h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 0.95rem;
+  }
+  p {
+    font-size: 0.85rem;
+  }
+  .top {
+    gap: 10px;
+    top: 2%;
+  }
+  .top a {
+    font-size: 12px !important;
+  }
+  header p {
+    font-size: 0.85rem;
+    top: 3.5%;
+  }
+  .section1 {
+    margin-top: 20%;
+  }
+  .section2 div img {
+    width: 65%;
+  }
+  footer p {
+    margin-left: 5%;
+    font-size: 0.85rem;
+  }
+  .credits p {
+    font-size: 0.85rem;
+  }
+  .credits a {
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=about-us-styling.css.map */

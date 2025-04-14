@@ -184,6 +184,21 @@ footer {
         top: 1%;
     }
 
+    footer p {
+        margin-left: 5%;
+        font-size: $font-p-mobile;
+       }
+    
+       .credits p {
+        font-size: $font-p-mobile;
+       }
+    
+    
+       .credits a {
+        margin-left: 5px;
+        font-size: $font-a-mobile;
+      }
+
 }
 
 
