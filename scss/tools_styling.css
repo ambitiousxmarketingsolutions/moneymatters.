@@ -63,7 +63,7 @@ header p {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 5em;
   margin-top: 12%;
 }
 
@@ -130,4 +130,67 @@ h1 {
 .connection-container a {
   color: black;
   text-decoration: none;
+}
+
+footer {
+  margin-top: 2.5%;
+}
+
+footer p {
+  margin-left: 5%;
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 75%;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2.5%;
+}
+
+.credits a {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  .section1 p {
+    width: 25%;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .top {
+    gap: 10px;
+    top: 2.5%;
+  }
+  .top a {
+    font-size: 12px;
+  }
+  header p {
+    font-size: 0.85rem;
+    top: 2.5%;
+  }
+  .section1 {
+    margin-top: 10%;
+  }
+  .section1 img {
+    overflow-x: hidden;
+    width: 65%;
+    left: 45%;
+    top: 1%;
+  }
 }/*# sourceMappingURL=tools_styling.css.map */

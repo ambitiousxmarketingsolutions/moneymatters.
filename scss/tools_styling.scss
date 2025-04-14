@@ -1,8 +1,8 @@
-@import 'links';
+@import 'partials/links';
 
-@import 'positioning';
+@import 'partials/positioning';
 
-@import 'mobile-font-sizes';
+@import 'partials/font-sizes';
 
 
 html {
@@ -59,7 +59,7 @@ header p {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: $font-h1-size;
     margin-top: 12%;
 }
 
@@ -117,4 +117,73 @@ h1 {
   .connection-container a {
     @include link-style(black);
   }
+
+footer {
+    margin-top: 2.5%;
+}
+
+
+  footer p {
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 25px;
+    @include center(vertical);
+  }
+
+  footer nav {
+    @include flex-column();
+    gap: 15px;
+    margin-left: 75%;
+  }
+
+  .credits {
+    @include center(horizontal);
+    margin-top: 2.5%;
+  }
+
+  .credits a {
+    margin-left: 15px;
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    html {
+     overflow-x: hidden;
+    }
+
+    .section1 p {
+        width: 25%;
+    }
+
+    h1 {
+        font-size: $font-h1-mobile;
+    }
+
+    .top {
+        gap: 10px;
+        top: 2.5%;
+       }
+    
+       .top a {
+        font-size: 12px;
+       }
+
+       header p {
+        font-size: $font-p-mobile;
+        top: 2.5%;
+       }
+
+    .section1 {
+        margin-top: 10%;
+    }
+
+    .section1 img {
+        overflow-x: hidden;
+        width: 65%;
+        left: 45%;
+        top: 1%;
+    }
+
+}
+
 

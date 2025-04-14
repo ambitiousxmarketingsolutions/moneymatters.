@@ -9,16 +9,16 @@ html {
 }
 
 
-@import 'positioning';
+@import 'partials/positioning';
 
-@import 'links';
+@import 'partials/links';
 
-@import 'mobile-font-sizes';
+@import 'partials/font-sizes';
 
 
 h1 {
     @include center(horizontal);
-    font-size: 6em;
+    font-size: $font-h1-size;
     margin-top: 20%;
 }
 
@@ -233,9 +233,13 @@ header p {
     @include link-style(black);
   }
 
+footer {
+  margin-top: 2.5%;
+}
+
 
   footer p {
-    margin-left: 10%;
+    margin-left: 5%;
     font-weight: 600;
     font-size: 25px;
     @include center(vertical);

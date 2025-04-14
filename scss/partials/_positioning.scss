@@ -23,3 +23,15 @@
     display: flex;
     flex-direction: column;
   }
+
+  
+@mixin two-column-grid($gap: 1rem) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gap;
+
+    @media screen and (min-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  }
+  
