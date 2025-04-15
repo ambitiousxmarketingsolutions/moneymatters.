@@ -249,9 +249,10 @@ footer {
   }
 
   footer nav {
-    @include flex-column();
+    @include flex();
+    margin-left: 5%;
+    margin-top: 2.5%;
     gap: 15px;
-    margin-left: 75%;
   }
 
   .credits {
@@ -329,7 +330,6 @@ footer {
 
    .tools-container {
     gap: 5%;
-    margin-top: 10%;
    }
 
    .tools-container div img {

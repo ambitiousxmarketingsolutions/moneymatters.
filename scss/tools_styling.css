@@ -147,9 +147,9 @@ footer p {
 
 footer nav {
   display: flex;
-  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 2.5%;
   gap: 15px;
-  margin-left: 75%;
 }
 
 .credits {
