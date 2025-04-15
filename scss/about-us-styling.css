@@ -1,7 +1,5 @@
 * {
   font-family: "Inter", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -82,7 +80,7 @@ body {
 
 header p {
   position: absolute;
-  top: 8%;
+  top: 5%;
   left: 5%;
   font-weight: 600;
   font-size: 25px;
@@ -162,6 +160,7 @@ footer nav {
   justify-content: center;
   text-align: center;
   margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .credits a {
@@ -196,7 +195,7 @@ footer nav {
   }
   header p {
     font-size: 0.85rem;
-    top: 3.5%;
+    top: 2%;
   }
   .blog-link {
     display: none;
