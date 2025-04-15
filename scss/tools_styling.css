@@ -175,7 +175,7 @@ footer nav {
 }
 
 @media screen and (max-width: 768px) {
-  html {
+  html, body {
     overflow-x: hidden;
   }
   .section1 p {
@@ -201,12 +201,14 @@ footer nav {
   }
   .section1 {
     margin-top: 10%;
+    overflow-x: hidden;
   }
   .section1 img {
-    overflow-x: hidden;
-    width: 65%;
     left: 45%;
     top: 1%;
+    max-width: 55%;
+    height: auto;
+    display: block;
   }
   footer p {
     margin-left: 5%;
