@@ -246,6 +246,13 @@ header p {
 .connection-container {
   display: flex;
   gap: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.connection-container div {
+  text-align: left;
 }
 
 .connection-container a {
@@ -286,6 +293,9 @@ footer nav {
 
 @media screen and (max-width: 768px) {
   html {
+    overflow-x: hidden;
+  }
+  .section1 img {
     overflow-x: hidden;
   }
   header img {

@@ -230,6 +230,11 @@ header p {
   .connection-container {
     @include flex();
     gap: 50px;
+    @include center(horizontal);
+  }
+
+  .connection-container div {
+    text-align: left;
   }
 
   .connection-container a {
@@ -267,6 +272,10 @@ footer {
 
 @media screen and (max-width: 768px) {
    html {
+    overflow-x: hidden;
+   }
+
+   .section1 img {
     overflow-x: hidden;
    }
 
@@ -423,6 +432,7 @@ footer {
   .section2 h2 {
     align-self: flex-start;
   }
+
 
 }
 

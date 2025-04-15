@@ -100,11 +100,23 @@ h1 {
 .connection-container {
     @include flex();
     gap: 50px;
+    @include center(horizontal);
+  }
+
+  .connection-container div {
+    text-align: left;
   }
 
   .connection-container a {
     @include link-style(black);
   }
+
+  .section3 {
+    @include flex-column();
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
 
 
   footer {

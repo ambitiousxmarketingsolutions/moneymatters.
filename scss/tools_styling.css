@@ -84,6 +84,10 @@ h1 {
   margin-left: 5%;
 }
 
+.section2 {
+  margin-top: 5%;
+}
+
 .tools {
   display: flex;
   justify-content: center;
@@ -125,6 +129,13 @@ h1 {
 .connection-container {
   display: flex;
   gap: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.connection-container div {
+  text-align: left;
 }
 
 .connection-container a {
@@ -168,7 +179,8 @@ footer nav {
     overflow-x: hidden;
   }
   .section1 p {
-    width: 25%;
+    margin-top: 25%;
+    width: 45%;
   }
   h1 {
     font-size: 2.5rem;
@@ -203,5 +215,8 @@ footer nav {
   .credits a {
     margin-left: 5px;
     font-size: 0.8rem;
+  }
+  .section2 {
+    margin-top: 18%;
   }
 }/*# sourceMappingURL=tools_styling.css.map */

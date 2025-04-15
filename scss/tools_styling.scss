@@ -81,6 +81,10 @@ h1 {
     margin-left: 5%;
 }
 
+.section2 {
+    margin-top: 5%;
+}
+
 
 .tools {
     @include center(horizontal);
@@ -112,6 +116,11 @@ h1 {
 .connection-container {
     @include flex();
     gap: 50px;
+    @include center(horizontal);
+  }
+
+  .connection-container div {
+    text-align: left;
   }
 
   .connection-container a {
@@ -153,7 +162,8 @@ footer {
     }
 
     .section1 p {
-        width: 25%;
+        margin-top: 25%;
+        width: 45%;
     }
 
     h1 {
@@ -198,6 +208,10 @@ footer {
        .credits a {
         margin-left: 5px;
         font-size: $font-a-mobile;
+      }
+
+      .section2 {
+        margin-top: 18%;
       }
 
 }
