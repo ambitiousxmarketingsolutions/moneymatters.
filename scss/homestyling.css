@@ -82,8 +82,10 @@ header p {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 5%;
   position: relative;
+  margin-top: -8%;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .section1 img {
@@ -140,6 +142,7 @@ header p {
   justify-content: center;
   text-align: center;
   display: flex;
+  margin-top: -2.5%;
 }
 
 .section2 h2 {
@@ -316,7 +319,7 @@ footer nav {
     font-size: 2.5rem;
   }
   .section1 {
-    margin-top: 0%;
+    margin-top: -8%;
   }
   .section1 p {
     font-size: 0.85rem;
@@ -401,6 +404,7 @@ footer nav {
     display: flex;
     flex-direction: column;
     padding-left: 5%;
+    margin-top: -5%;
   }
   .section2 h2 {
     align-self: flex-start;
