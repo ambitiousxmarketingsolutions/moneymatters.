@@ -34,7 +34,7 @@ body {
 .section2 {
     @include center(horizontal);
     width: 100%;
-    @include two-column-grid(1rem);
+    @include two-column-grid(0.25rem);
 }
 
 
@@ -51,7 +51,7 @@ body {
 }
 
 .section2 img {
-    width: 35%;
+    width: 45%;
 }
 
 .top {
