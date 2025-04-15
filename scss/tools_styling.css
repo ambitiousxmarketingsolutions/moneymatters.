@@ -96,6 +96,11 @@ h1 {
   text-align: center;
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid black;
+  padding-bottom: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .tools a {
@@ -118,6 +123,19 @@ h1 {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   text-decoration: none !important;
+}
+
+.tools-content {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 2%;
+}
+
+.tools-content img {
+  width: 50%;
 }
 
 .section4 {
