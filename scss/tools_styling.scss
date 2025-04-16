@@ -4,17 +4,8 @@
 
 @import 'partials/font-sizes';
 
+@import 'partials/generalstyling';
 
-html {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-
-* {
-    font-family:'Inter', sans-serif;
-}
 
 
 .top {
@@ -92,7 +83,7 @@ h1 {
 .tools {
     @include center(horizontal);
     @include flex-column();
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
     padding-bottom: 2.5%;
     margin-bottom: 2.5%;
     margin-left: 5%;
@@ -145,6 +136,12 @@ h1 {
     @include flex();
     gap: 50px;
     @include center(horizontal);
+
+    div img {
+        width: 50%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+      }
   }
 
   .connection-container div {
@@ -198,8 +195,16 @@ footer {
         font-size: $font-h1-mobile;
     }
 
-    h2 {
+    .section2 h2, .section3 h2 {
         font-size: $font-h2-mobile;
+    }
+
+    .section2 h3, .section3 h3 {
+        font-size: $font-h3-mobile;
+    }
+
+    .section2 p, .section3 p {
+        font-size: $font-p-mobile;
     }
 
     .top {
@@ -259,11 +264,15 @@ footer {
       }
 
       .section2 {
-        margin-top: 25%;
+        margin-top: 30%;
+      }
+
+      .section3 {
+        margin-top: 5%;
       }
 
       .section2 h2, .section3 h2 {
-        margin-bottom: 0%;
+        margin-bottom: 2.5%;
       }
 
       .tools-content {
@@ -274,11 +283,21 @@ footer {
       }
 
       .tools-content img {
-        width: 65%;
+        width: 50%;
+      }
+
+      .section4 h2 {
+        font-size: $font-h2-mobile;
       }
 
       
+.section4 {
+    margin-bottom: 20%;
+}
 
+.connection-container {
+    gap: 10px;
+}
 
 
 }

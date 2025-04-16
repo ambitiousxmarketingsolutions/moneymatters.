@@ -263,6 +263,11 @@ header p {
   justify-content: center;
   text-align: center;
 }
+.connection-container div img {
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
 
 .connection-container div {
   text-align: left;
