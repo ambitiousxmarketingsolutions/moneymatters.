@@ -305,4 +305,7 @@ footer nav {
   .section3 p {
     font-size: 0.85rem;
   }
+  .connection-container {
+    gap: 0px;
+  }
 }/*# sourceMappingURL=about-us-styling.css.map */
