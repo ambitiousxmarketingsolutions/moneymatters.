@@ -241,7 +241,7 @@ h1 {
     }
 
     .content {
-        gap: 10px;
+        gap: 30px;
         margin-top: 8%;
         top: 5%;
         margin-left: 3%;
@@ -272,6 +272,14 @@ h1 {
 
   .content div {
     margin-bottom: 0%;
+  }
+
+  .section2 {
+    margin-top: -10%;
+  }
+
+  .section2 img {
+    transform: scale(1.5);
   }
 
   footer {
