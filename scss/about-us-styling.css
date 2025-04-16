@@ -251,8 +251,10 @@ footer nav {
     margin-left: 5px;
     font-size: 0.8rem;
   }
-  .section3 {
+  .section2 {
+    margin-bottom: 20%;
+  }
+  .section3 h2 {
     margin-top: 15%;
-    margin-bottom: 0%;
   }
 }/*# sourceMappingURL=about-us-styling.css.map */
