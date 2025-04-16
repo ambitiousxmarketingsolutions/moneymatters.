@@ -6,6 +6,7 @@
 
 html {
   overflow-x: hidden;
+  background-color: #f4f0e5;
 }
 
 h1 {
@@ -139,9 +140,7 @@ header p {
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   display: flex;
-  justify-content: center;
-  text-align: center;
-  display: flex;
+  flex-direction: column;
   margin-top: -2.5%;
 }
 
@@ -149,27 +148,41 @@ header p {
   text-wrap: nowrap;
 }
 
+.section2 div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section2 div h3, .section2 div p {
+  text-align: left;
+  width: 80%;
+  margin-left: 12%;
+}
+
+.section2 div h3 {
+  font-size: 30px;
+}
+
+.section2 div p {
+  font-size: 25px;
+}
+
 .section2 div img {
   margin-top: 2.5%;
   margin-bottom: 2%;
-  width: 55%;
+  width: 75%;
 }
 
 .section2 div a:hover {
   text-decoration: underline;
 }
 
-.section2 div p, .section2 div h3 {
-  width: 50%;
-}
-
 .tools-container {
   margin-top: 5%;
   display: flex;
-  display: flex;
   justify-content: center;
   text-align: center;
-  text-align: left !important;
 }
 
 .tools-container a {
@@ -354,11 +367,14 @@ footer nav {
   .tools-container div img {
     width: 75%;
   }
+  .section2 div h3 {
+    font-size: 0.95rem;
+  }
   .tools-container div a p {
     font-size: 0.8rem;
   }
   .section2 div p {
-    width: 90%;
+    width: 85%;
   }
   .section3-split {
     gap: 2.5%;

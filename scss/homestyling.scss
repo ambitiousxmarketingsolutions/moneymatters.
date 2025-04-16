@@ -6,6 +6,7 @@
 
 html {
     overflow-x: hidden;
+    background-color: #f4f0e5;
 }
 
 
@@ -125,8 +126,7 @@ header p {
     padding-right: 2.5%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    @include center(horizontal);
-    @include flex();
+    @include flex-column();
     margin-top: -2.5%;
 }
 
@@ -134,10 +134,30 @@ header p {
   text-wrap: nowrap;
 }
 
+.section2 div {
+  @include center(horizontal);
+}
+
+.section2 div h3, .section2 div p {
+  text-align: left;
+  width: 80%;
+  margin-left: 12%;
+}
+
+.section2 div h3 {
+  font-size: $font-h3-size;
+}
+
+.section2 div p {
+  font-size: 25px;
+}
+
+
 .section2 div img {
   margin-top: 2.5%;
   margin-bottom: 2%;
-  width: 55%;
+  width: 75%;
+
 }
 
 
@@ -146,16 +166,9 @@ header p {
 }
 
 
-.section2 div p, .section2 div h3 {
-  width: 50%;
-}
-
-
 .tools-container {
   margin-top: 5%;
-    @include flex;
     @include center(horizontal);
-    text-align: left !important;
 }
 
 .tools-container a {
@@ -350,12 +363,17 @@ footer {
     width: 75%;
    }
 
+
+   .section2 div h3 {
+    font-size: $font-h3-mobile;
+   }
+
    .tools-container div a p {
     font-size: $font-a-mobile;
    }
 
    .section2 div p {
-    width: 90%;
+    width: 85%;
    }
 
    .section3-split {
