@@ -235,7 +235,7 @@ footer nav {
     top: 2.5%;
   }
   .top a {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   .block-link {
     border-radius: 8px;
@@ -246,7 +246,7 @@ footer nav {
   }
   header p {
     font-size: 0.85rem;
-    top: 1.5%;
+    top: 3%;
   }
   .blog-link {
     display: none;
