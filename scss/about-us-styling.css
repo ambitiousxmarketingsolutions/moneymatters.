@@ -231,6 +231,16 @@ footer nav {
   .section2 div img {
     width: 65%;
   }
+  .content {
+    gap: 30px;
+    margin-top: 8%;
+  }
+  .content div p {
+    max-width: 300px;
+  }
+  .content div {
+    margin-bottom: 0%;
+  }
   footer p {
     margin-left: 5%;
     font-size: 0.85rem;

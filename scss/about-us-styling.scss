@@ -228,6 +228,20 @@ h1 {
         width: 65%;
     }
 
+    .content {
+        gap: 30px;
+        margin-top: 8%;
+    }
+
+    .content div p {
+
+        max-width: 300px;             // optional: controls wrapping width
+  }
+
+  .content div {
+    margin-bottom: 0%;
+  }
+
     footer p {
         margin-left: 5%;
         font-size: $font-p-mobile;
@@ -242,4 +256,6 @@ h1 {
         margin-left: 5px;
         font-size: $font-a-mobile;
       }
+
+
 }
