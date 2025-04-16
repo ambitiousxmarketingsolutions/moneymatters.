@@ -46,7 +46,6 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  top: 0;
 }
 
 .content {
@@ -253,6 +252,7 @@ footer nav {
     font-size: 0.8rem;
   }
   .section3 {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 0%;
   }
 }/*# sourceMappingURL=about-us-styling.css.map */
