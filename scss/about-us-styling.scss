@@ -28,7 +28,7 @@ body {
 .section2 {
     @include center(horizontal);
     position: relative;
-    margin-top: -20%;
+    margin-top: -10%;
     margin-bottom: 0; // Add this if bottom margin exists
     padding: 0; 
     
@@ -38,8 +38,8 @@ body {
     position: relative;
     opacity: 30%;
     max-width: 100vw;
-    top: 0%;
     @include center(horizontal);
+    transform: scale(1.5);
 }
 
 .content {
@@ -48,7 +48,6 @@ body {
     @include flex-column();
     @include center(horizontal);
     top: 15%;
-    gap: 10px; // space between Mission, Vision, Values
 }
 
 .content div {
@@ -70,8 +69,8 @@ body {
         word-break: break-word;       // breaks long words or strings when needed
         overflow-wrap: break-word;    // adds extra safety for older browsers
         white-space: normal;          // allows wrapping (in case nowrap was applied)
-        max-width: 800px;             // optional: controls wrapping width
-        font-size: 20px;
+        max-width: 1000px;             // optional: controls wrapping width
+        font-size: $font-p-size;
       
   }
 
@@ -185,7 +184,7 @@ h1 {
 
   @media screen and (max-width: 768px) {
     
-    html {
+    html, main {
      overflow-x: hidden;
     }
 
@@ -274,13 +273,11 @@ h1 {
     margin-bottom: 0%;
   }
 
+
   .section2 {
     margin-top: -10%;
   }
 
-  .section2 img {
-    transform: scale(1.5);
-  }
 
   footer {
     margin-top: 10%;
