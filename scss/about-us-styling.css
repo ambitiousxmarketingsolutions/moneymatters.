@@ -86,7 +86,7 @@ body {
 }
 
 .content div h2 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .top {
@@ -140,7 +140,7 @@ header p {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 80px;
 }
 
 .section3 {
@@ -258,6 +258,9 @@ footer nav {
     top: 5%;
     margin-left: 3%;
     margin-right: 3%;
+  }
+  .content p {
+    line-height: 1;
   }
   .content div h2 {
     font-size: 1.25rem;

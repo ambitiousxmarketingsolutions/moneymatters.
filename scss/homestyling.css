@@ -13,7 +13,7 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 5em;
+  font-size: 80px;
   margin-top: 20%;
 }
 
@@ -161,7 +161,7 @@ header p {
 }
 
 .section2 div h3 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .section2 div p {
@@ -225,7 +225,7 @@ header p {
 }
 
 .links-container div h3 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .links-container div a {
