@@ -80,6 +80,7 @@ h1 {
 .section1 p {
   position: absolute;
   margin-top: 22%;
+  width: 60%;
 }
 
 .section2 h2, .section3 h2 {
@@ -103,7 +104,15 @@ h1 {
   margin-right: 5%;
 }
 
-.tools a {
+.section2 h2, .section3 h2 {
+  font-size: 40px;
+}
+
+.tools h3 {
+  font-size: 30px;
+}
+
+.tools .download-button {
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -119,7 +128,7 @@ h1 {
   display: inline-block;
   margin: auto;
 }
-.tools a:hover {
+.tools .download-button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   text-decoration: none !important;

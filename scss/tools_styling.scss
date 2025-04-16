@@ -77,6 +77,7 @@ h1 {
 .section1 p {
     position: absolute;
     margin-top: 22%;
+    width: 60%;
 }
 
 .section2 h2, .section3 h2 {
@@ -98,7 +99,15 @@ h1 {
     margin-right: 5%;
 }
 
-.tools a {
+.section2 h2, .section3 h2 {
+    font-size: $font-h2-size;
+}
+
+.tools h3 {
+    font-size: $font-h3-size;
+}
+
+.tools .download-button {
     @include link-style(white);
     @include hover-rise();
     background-color: black;

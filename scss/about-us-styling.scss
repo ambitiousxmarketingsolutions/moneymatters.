@@ -21,38 +21,58 @@ body {
 .section1 {
     @include center(horizontal);
     @include flex-column();
+    margin-bottom: 8%;
 }
 
 .section1 h2 {
-    margin-top: 5%;
+    margin-top: 5%; 
 }
 
 .section1 p {
     margin-top: 1%;
 }
 
+
 .section2 {
     @include center(horizontal);
-    width: 100%;
-    @include two-column-grid(0.25rem);
-}
-
-
-
-.section2 div {
-    width: 100%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
-
-.section2 div h2 {
-    margin-top: 2.5%;
-    font-size: $font-h2-size;
+    position: relative;
+    margin-top: -10%;
+    margin-bottom: 0; // Add this if bottom margin exists
+    padding: 0; 
+    
 }
 
 .section2 img {
-    width: 45%;
+    position: relative;
+    opacity: 15%;
+    max-width: 100vw;
+    @include center(horizontal);
+    top: 0;
 }
+
+.content {
+    position: absolute;
+    z-index: 1;
+    @include flex-column();
+    @include center(horizontal);
+    margin-top: 10%;
+    gap: 50px; // space between Mission, Vision, Values
+}
+
+.content div {
+      margin-bottom: 10%;
+      @include flex-column();
+  }
+
+  .content div p {
+    
+        word-break: break-word;       // breaks long words or strings when needed
+        overflow-wrap: break-word;    // adds extra safety for older browsers
+        white-space: normal;          // allows wrapping (in case nowrap was applied)
+        max-width: 600px;             // optional: controls wrapping width
+      
+  }
+
 
 .top {
     position: absolute;

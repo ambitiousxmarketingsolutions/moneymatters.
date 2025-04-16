@@ -357,6 +357,9 @@ footer nav {
   .tools-container div a p {
     font-size: 0.8rem;
   }
+  .section2 div p {
+    width: 90%;
+  }
   .section3-split {
     gap: 2.5%;
   }
