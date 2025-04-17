@@ -234,10 +234,10 @@ footer nav {
     font-size: 2.5rem;
   }
   .section2 h2, .section3 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   .section2 h3, .section3 h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .section2 p, .section3 p {
     font-size: 0.85rem;
@@ -305,10 +305,19 @@ footer nav {
     width: 50%;
   }
   .section4 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   .section4 {
     margin-bottom: 20%;
+  }
+  .section4 h2 {
+    font-size: 1.5rem;
+  }
+  .section4 h3 {
+    font-size: 1rem;
+  }
+  .section4 p {
+    font-size: 0.85rem;
   }
   .connection-container {
     gap: 10px;

@@ -99,15 +99,17 @@ header p {
 .onep1, .onep2 {
   position: absolute;
   width: 70%;
-  font-size: 45px;
 }
 
 .onep1 {
   margin-top: 22%;
+  font-size: 45px;
 }
 
 .onep2 {
   margin-top: 48%;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .section1 a {
@@ -321,10 +323,10 @@ footer nav {
     top: 8%;
   }
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .top {
     gap: 10px;
@@ -373,7 +375,7 @@ footer nav {
     width: 75%;
   }
   .section2 div h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .tools-container div a p {
     font-size: 0.8rem;
@@ -398,10 +400,10 @@ footer nav {
     width: 50%;
   }
   .section3 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   .links-container div h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .links-container div a {
     font-size: 0.8rem;
@@ -413,7 +415,7 @@ footer nav {
     margin-top: 10%;
   }
   .section4 a h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .section4 a p {
     font-size: 0.85rem;

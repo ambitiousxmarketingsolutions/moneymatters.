@@ -83,15 +83,17 @@ header p {
 .onep1, .onep2 {
     position: absolute;
     width: 70%;
-    font-size: 45px;
 }
 
 .onep1 {
     margin-top: 22%;
+    font-size: 45px;
 }
 
 .onep2 {
     margin-top: 48%;
+    font-weight: bold;
+    font-size: $font-p-size;
 }
 
 .section1 a {

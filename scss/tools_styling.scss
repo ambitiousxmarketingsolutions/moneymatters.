@@ -305,6 +305,18 @@ footer {
       
     .section4 {
         margin-bottom: 20%;
+
+        h2 {
+            font-size: $font-h2-mobile;
+        }
+
+        h3 {
+            font-size: $font-h3-mobile;
+        }
+
+        p {
+            font-size: $font-p-mobile;
+        }
     }
 
     .connection-container {
