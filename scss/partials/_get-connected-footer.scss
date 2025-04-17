@@ -1,0 +1,57 @@
+.final {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.final h2 {
+    font-size: $font-h2-size;
+  }
+
+  .connection-container {
+    @include flex();
+    gap: 50px;
+    @include center(horizontal);
+
+    div img {
+      width: 50%;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+    }
+  }
+
+  .connection-container div {
+    text-align: left;
+  }
+
+  .connection-container a {
+    @include link-style(black);
+  }
+
+footer {
+  margin-top: 2.5%;
+}
+
+
+  footer p {
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 25px;
+    @include center(vertical);
+  }
+
+  footer nav {
+    @include flex();
+    margin-left: 5%;
+    margin-top: 2.5%;
+    gap: 15px;
+  }
+
+  .credits {
+    @include center(horizontal);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  .credits a {
+    margin-left: 15px;
+  }

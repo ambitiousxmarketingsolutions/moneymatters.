@@ -1,0 +1,38 @@
+@import '../../scss/partials/font-sizes';
+@import '../../scss/partials/generalstyling';
+@import '../../scss/partials/header';
+@import '../../scss/partials/links';
+@import '../../scss/partials/positioning';
+@import '../../scss/partials/get-connected-footer';
+
+.section1 {
+    @include center(horizontal);
+    @include flex-column();
+    border-bottom: 3px solid black;
+    padding-bottom: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+
+    h1 {
+        margin-bottom: 2.5%;
+    }
+
+    .first-p {
+        margin-bottom: 2.5%;
+    }
+
+    a {
+        margin-bottom: 2.5%;
+    }
+
+    img {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 2.5%;
+    }
+
+    .instructions {
+        @include flex-column();
+    }
+}

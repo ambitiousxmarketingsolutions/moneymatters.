@@ -1,0 +1,241 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+  background-color: #f4f0e5;
+}
+
+.download-button {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  background-color: black;
+  font-size: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 15px;
+  display: inline-block;
+  margin: auto;
+}
+.download-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.top {
+  position: absolute;
+  right: 2.5%;
+  top: 8%;
+  display: flex;
+  gap: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.top a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.top a:hover {
+  text-decoration: underline;
+}
+
+header p {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.block-link {
+  background-color: black;
+  color: white !important;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: inline-block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.block-link:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 12%;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .top {
+    gap: 10px;
+    top: 2.5%;
+  }
+  .top a {
+    font-size: 14px;
+  }
+  .block-link {
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  header p {
+    font-size: 0.85rem;
+    top: 3%;
+  }
+  .blog-link {
+    display: none;
+  }
+  .section1 {
+    margin-top: 10%;
+    overflow-x: hidden;
+  }
+}
+.download-button {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  background-color: black;
+  font-size: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 15px;
+  display: inline-block;
+  margin: auto;
+}
+.download-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.final {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.final h2 {
+  font-size: 40px;
+}
+
+.connection-container {
+  display: flex;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.connection-container div img {
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.connection-container div {
+  text-align: left;
+}
+
+.connection-container a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 2.5%;
+}
+
+footer p {
+  margin-left: 5%;
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+footer nav {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  gap: 15px;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.credits a {
+  margin-left: 15px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid black;
+  padding-bottom: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2.5%;
+}
+.section1 h1 {
+  margin-bottom: 2.5%;
+}
+.section1 .first-p {
+  margin-bottom: 2.5%;
+}
+.section1 a {
+  margin-bottom: 2.5%;
+}
+.section1 img {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2.5%;
+}
+.section1 .instructions {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=indiv-tool-styling.css.map */

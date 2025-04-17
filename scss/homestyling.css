@@ -9,6 +9,29 @@ html {
   background-color: #f4f0e5;
 }
 
+.download-button {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  background-color: black;
+  font-size: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 15px;
+  display: inline-block;
+  margin: auto;
+}
+.download-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
 h1 {
   display: flex;
   justify-content: center;

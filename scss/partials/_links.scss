@@ -15,3 +15,19 @@
       text-decoration: none !important;
     }
   }
+
+
+.download-button {
+    @include link-style(white);
+    @include hover-rise();
+    background-color: black;
+    font-size: 18px;
+    width: fit-content;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 15px;
+    display: inline-block;
+    margin: auto;
+}
