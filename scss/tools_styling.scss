@@ -288,7 +288,6 @@ footer {
       }
 
       .tools-content {
-        margin-bottom: 2.5%;
         gap: 25px;
         align-items: center;
         @include flex-column();
@@ -304,7 +303,6 @@ footer {
 
       
     .section4 {
-        margin-bottom: 20%;
 
         h2 {
             font-size: $font-h2-mobile;

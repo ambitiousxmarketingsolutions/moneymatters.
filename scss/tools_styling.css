@@ -329,7 +329,6 @@ footer nav {
     margin-bottom: 2.5%;
   }
   .tools-content {
-    margin-bottom: 2.5%;
     gap: 25px;
     align-items: center;
     display: flex;
@@ -340,9 +339,6 @@ footer nav {
   }
   .section4 h2 {
     font-size: 1.5rem;
-  }
-  .section4 {
-    margin-bottom: 20%;
   }
   .section4 h2 {
     font-size: 1.5rem;
