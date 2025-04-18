@@ -36,3 +36,11 @@
         @include flex-column();
     }
 }
+
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: $font-h1-mobile;
+    }
+}

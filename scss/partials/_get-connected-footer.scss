@@ -55,3 +55,27 @@ footer {
   .credits a {
     margin-left: 15px;
   }
+
+
+  @media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: $font-h1-mobile;
+    }
+    
+    footer p {
+        margin-left: 5%;
+        font-size: $font-p-mobile;
+       }
+    
+       .credits p {
+        font-size: $font-p-mobile;
+       }
+    
+    
+       .credits a {
+        margin-left: 5px;
+        font-size: $font-a-mobile;
+      }
+    
+  }
