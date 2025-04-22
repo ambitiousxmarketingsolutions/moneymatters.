@@ -104,7 +104,7 @@ h1 {
     @include link-style(white);
     @include hover-rise();
     background-color: black;
-    font-size: 18px;
+    font-size: $font-h3-size;
     width: fit-content;
     padding-left: 1%;
     padding-right: 1%;
@@ -333,6 +333,7 @@ footer {
         border-radius: 12px;
         margin-top: 5%;
         margin-bottom: 3%;
+        font-size: $font-h3-mobile;
     }
 
 

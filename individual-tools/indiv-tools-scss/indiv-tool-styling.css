@@ -15,7 +15,7 @@ html {
   display: inline-block;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   background-color: black;
-  font-size: 18px;
+  font-size: 35px;
   width: -moz-fit-content;
   width: fit-content;
   padding-left: 1%;
@@ -41,6 +41,7 @@ html {
     border-radius: 12px;
     margin-top: 5%;
     margin-bottom: 3%;
+    font-size: 1rem;
   }
 }
 .top {
@@ -143,7 +144,7 @@ h1 {
   display: inline-block;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   background-color: black;
-  font-size: 18px;
+  font-size: 35px;
   width: -moz-fit-content;
   width: fit-content;
   padding-left: 1%;
@@ -169,6 +170,7 @@ h1 {
     border-radius: 12px;
     margin-top: 5%;
     margin-bottom: 3%;
+    font-size: 1rem;
   }
 }
 .final {
