@@ -34,6 +34,7 @@ header p {
     font-weight: 600;
     font-size: 25px;
     @include center(vertical);
+    @include link-style(black);
 }
 
 .block-link {
@@ -235,6 +236,7 @@ footer {
         padding-right: 12px;
         padding-top: 7px;
         padding-bottom: 7px;
+        font-size: 12px !important;
        }
     
 

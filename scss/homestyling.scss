@@ -30,8 +30,19 @@ header img {
     right: 2.5%;
     top: 10%;
     display: flex;
-    gap: 45px;
+    gap: 20px;
     @include center(vertical);
+}
+
+.box {
+  @include flex();
+  gap: 45px;
+  border: 2.5px solid black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  text-wrap: nowrap;
 }
 
 .top a {
@@ -46,11 +57,17 @@ header img {
 
 header p {
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 5%;
     font-weight: 600;
     font-size: 25px;
     @include center(vertical);
+    @include link-style(black);
+    border: 2.5px solid black;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 .block-link {
@@ -68,9 +85,9 @@ header p {
 .section1 {
     @include center(horizontal);
     position: relative;
-    margin-top: -5%;
+    margin-top: -12%;
     margin-bottom: 0; // Add this if bottom margin exists
-    padding: 0; 
+    padding: 0;
 }
 
 .section1 img {
@@ -78,6 +95,7 @@ header p {
     opacity: 10%;
     margin-top: 15%;
     max-width: 100vw;
+    transform: scale(0.65);
 }
 
 .onep1, .onep2 {
@@ -86,19 +104,19 @@ header p {
 }
 
 .onep1 {
-    margin-top: 22%;
+    margin-top: 35%;
     font-size: 45px;
 }
 
 .onep2 {
-    margin-top: 48%;
+    margin-top: 50%;
     font-weight: bold;
     font-size: $font-p-size;
 }
 
 .section1 a {
     position: absolute;
-    margin-top: 35%;
+    margin-top: 42%;
     background-color: black;
     @include link-style(white);
     border-radius: 25px;
@@ -119,11 +137,16 @@ header p {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     @include flex-column();
-    margin-top: -2.5%;
+    margin-top: -15%;
 }
 
 .section2 h2 {
   text-wrap: nowrap;
+  a {
+    @include link-style(white);
+  }
+
+
 }
 
 .section2 div {
@@ -174,6 +197,10 @@ header p {
     position: relative;
 }
 
+.section3 {
+  margin-top: 5%;
+}
+
 .section3 img {
     position: absolute;
     transform: rotate(-2.5deg); /* or -15deg for opposite direction */
@@ -204,7 +231,7 @@ header p {
 }
 
 .links-container div a {
-  font-size: $font-a-size;
+  font-size: 20px;
 }
 
 .video-container {
@@ -224,12 +251,14 @@ header p {
     }
   }
 
-  .section3 {
-    margin-top: 5%;
-  }
-
   .section3 h2 {
     font-size: $font-h2-size;
+  }
+
+  .section4 {
+    margin-top: -5%;
+    border-top: 2.5px solid black;
+    padding-top: 5%;
   }
 
   .connection-container {
@@ -288,6 +317,7 @@ footer {
    }
 
    .section1 img {
+    transform: scale(0.95);
     overflow-x: hidden;
    }
 
@@ -308,6 +338,10 @@ footer {
     top: 14.5%;
    }
 
+   .box {
+    border: none;
+   }
+
    .top a {
     font-size: 14px;
    }
@@ -318,11 +352,13 @@ footer {
     padding-right: 12px;
     padding-top: 7px;
     padding-bottom: 7px;
+    font-size: 12px !important;
    }
 
    header p {
     font-size: $font-p-mobile;
-    top: 15.5%;
+    top: 15.25%;
+    border: none;
    }
 
    .blog-link {
@@ -342,11 +378,11 @@ footer {
    }
 
    .onep1 {
-    margin-top: 20%;
+    margin-top: 25%;
     font-size: 1.2rem !important;
    }
    .onep2 {
-    margin-top: 58%;
+    margin-top: 62%;
    }
 
    .section1 a {
