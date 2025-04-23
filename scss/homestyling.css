@@ -392,9 +392,10 @@ footer nav {
   }
   .top {
     gap: 8px;
+    top: 12%;
   }
   .top a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .block-link {
     border-radius: 8px;
@@ -406,6 +407,7 @@ footer nav {
   }
   header p {
     font-size: 0.85rem;
+    top: 13%;
   }
   .blog-link {
     display: none;

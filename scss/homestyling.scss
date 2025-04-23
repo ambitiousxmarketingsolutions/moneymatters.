@@ -335,10 +335,11 @@ footer {
 
    .top {
     gap: 8px;
+    top: 12%;
    }
 
    .top a {
-    font-size: 12px;
+    font-size: 14px;
    }
 
    .block-link {
@@ -352,6 +353,7 @@ footer {
 
    header p {
     font-size: $font-p-mobile;
+    top: 13%;
    }
 
    .blog-link {
