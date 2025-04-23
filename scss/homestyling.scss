@@ -312,6 +312,10 @@ footer {
     overflow-x: hidden;
    }
 
+   .top-bar {
+    height: 125px;
+   }
+
    .section1 img {
     transform: scale(0.95);
     overflow-x: hidden;
@@ -331,7 +335,7 @@ footer {
 
    .top {
     gap: 10px;
-    top: 14.5%;
+    top: 8.5%;
    }
 
    .top a {
@@ -349,7 +353,7 @@ footer {
 
    header p {
     font-size: $font-p-mobile;
-    top: 15.25%;
+    top: 9.25%;
    }
 
    .blog-link {
