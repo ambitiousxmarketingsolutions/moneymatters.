@@ -392,7 +392,6 @@ footer nav {
   }
   .top {
     gap: 10px;
-    top: 8.5%;
   }
   .top a {
     font-size: 14px;
@@ -403,11 +402,10 @@ footer nav {
     padding-right: 12px;
     padding-top: 7px;
     padding-bottom: 7px;
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
   header p {
     font-size: 0.85rem;
-    top: 9.25%;
   }
   .blog-link {
     display: none;
