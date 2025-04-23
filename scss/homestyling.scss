@@ -28,25 +28,14 @@ header img {
 .top {
     position: absolute;
     right: 2.5%;
-    top: 10%;
+    top: 11%;
     display: flex;
     gap: 20px;
     @include center(vertical);
 }
 
-.box {
-  @include flex();
-  gap: 45px;
-  border: 2.5px solid black;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  text-wrap: nowrap;
-}
-
 .top a {
-    @include link-style(black);
+    @include link-style(white);
     font-weight: 600;
     font-size: 20px;
 }
@@ -57,22 +46,29 @@ header img {
 
 header p {
     position: absolute;
-    top: 12%;
+    top: 12.5%;
     left: 5%;
     font-weight: 600;
     font-size: 25px;
     @include center(vertical);
-    @include link-style(black);
-    border: 2.5px solid black;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    @include link-style(white);
+}
+
+
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: -1;
 }
 
 .block-link {
-    background-color: black;
-    color: white !important;
+    background-color: white;
+    color: black !important;
     border-radius: 8px;
     padding-left: 24px;
     padding-right: 24px;
@@ -338,10 +334,6 @@ footer {
     top: 14.5%;
    }
 
-   .box {
-    border: none;
-   }
-
    .top a {
     font-size: 14px;
    }
@@ -358,7 +350,6 @@ footer {
    header p {
     font-size: $font-p-mobile;
     top: 15.25%;
-    border: none;
    }
 
    .blog-link {
