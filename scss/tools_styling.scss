@@ -7,18 +7,26 @@
 @import 'partials/generalstyling';
 
 
-
 .top {
     position: absolute;
     right: 2.5%;
-    top: 8%;
+    top: 5%;
     display: flex;
     gap: 45px;
     @include center(vertical);
 }
 
+.top-bar {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 100vw;
+    height: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
 .top a {
-    @include link-style(black);
+    @include link-style(white);
     font-weight: 600;
     font-size: 20px;
 }
@@ -29,17 +37,17 @@
 
 header p {
     position: absolute;
-    top: 8%;
+    top: 6%;
     left: 5%;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     @include center(vertical);
-    @include link-style(black);
+    @include link-style(white);
 }
 
 .block-link {
-    background-color: black;
-    color: white !important;
+    background-color: white;
+    color: black !important;
     border-radius: 8px;
     padding-left: 24px;
     padding-right: 24px;
@@ -247,6 +255,14 @@ footer {
         gap: 10px;
         top: 2.5%;
        }
+
+       .top-bar {
+        height: 70px;
+      }
+
+       .top-bar {
+        height: 70px;
+      }
     
        .top a {
         font-size: 14px;
@@ -254,11 +270,11 @@ footer {
 
        .block-link {
         border-radius: 8px;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
         padding-top: 7px;
         padding-bottom: 7px;
-        font-size: 12px !important;
+        font-size: 10px !important;
        }
     
 
