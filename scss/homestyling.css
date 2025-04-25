@@ -463,6 +463,7 @@ footer nav {
   .hero .hero-text img {
     margin: auto;
     transform: scale(1.2);
+    top: 22%;
   }
   .hero h1 {
     font-size: 2.5rem;
