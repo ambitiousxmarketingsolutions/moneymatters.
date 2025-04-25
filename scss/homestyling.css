@@ -205,7 +205,7 @@ header p {
   position: relative;
   margin-top: -2.5%;
   right: 8%;
-  transform: scale(0.55);
+  transform: scale(0.8);
   z-index: -2;
 }
 .hero .onep1 {
@@ -223,7 +223,7 @@ header p {
   top: 18%;
   transform: scale(0.8);
   opacity: 10%;
-  z-index: -10;
+  z-index: -15;
 }
 
 .onep2 {
@@ -406,6 +406,8 @@ header p {
 
 footer {
   margin-top: 2.5%;
+  border-top: 1px solid gray;
+  padding-top: 2.5%;
 }
 
 footer p {
