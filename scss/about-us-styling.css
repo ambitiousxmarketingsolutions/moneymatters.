@@ -296,7 +296,7 @@ footer nav {
     font-size: 10px !important;
   }
   .top a {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   header p {
     font-size: 0.85rem;
