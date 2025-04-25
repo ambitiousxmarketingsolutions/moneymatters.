@@ -282,7 +282,7 @@ footer nav {
   }
   .top {
     gap: 8px;
-    top: 2%;
+    top: 3%;
   }
   .top-bar {
     height: 70px;
@@ -300,7 +300,7 @@ footer nav {
   }
   header p {
     font-size: 0.85rem;
-    top: 3%;
+    top: 4%;
     color: white;
     text-decoration: none;
   }

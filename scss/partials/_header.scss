@@ -69,7 +69,7 @@ h1 {
 
     .top {
         gap: 8px;
-        top: 2.5%;
+        top: 3%;
        }
     
        .top a {
@@ -92,7 +92,7 @@ h1 {
 
        header p {
         font-size: $font-p-mobile;
-        top: 3%;
+        top: 4%;
         @include link-style(white);
        }
 
