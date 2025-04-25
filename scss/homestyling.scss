@@ -161,7 +161,7 @@ header p {
   a {
     @include link-style(white);
   }
-
+  margin-left: 4%;
 
 }
 
@@ -271,7 +271,7 @@ header p {
     @include flex();
 
     div img {
-      width: 20%;
+      width: 40%;
       margin-top: 2.5%;
       margin-bottom: 2.5%;
     }
