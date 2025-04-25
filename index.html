@@ -146,20 +146,21 @@
                     </div>
 
                     <div class="form-container">
-                        <form>
+                        <form id="signup-form">
                             <div class="row">
                               <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
+                                <input type="text" name="first_name" class="form-control" placeholder="First name">
                               </div>
                               <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
+                                <input type="text" name="last_name" class="form-control" placeholder="Last name">
                               </div>
                             </div>
                             <div class="row" id="email">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" name="email" class="form-control" placeholder="Email">
                             </div>
                             <button type="submit" class="submit-btn">Submit</button>
                           </form>
+                          <p id="form-status"></p>
                     </div>
                 </div>
             </section>
@@ -189,6 +190,7 @@
             </div>
         </footer>
 
+        <script src="scripts/form-handling.js"></script>
     </body>
 
 </html>
