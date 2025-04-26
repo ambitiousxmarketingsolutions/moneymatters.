@@ -43,8 +43,114 @@ html {
   overflow-x: hidden;
 }
 
+.connection-container {
+  display: flex;
+}
+.connection-container div img {
+  width: 40%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.form-container {
+  width: 60%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  right: 25%;
+}
+
+form .row {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row #email {
+  width: 100%;
+}
+
+form .col {
+  flex: 1;
+}
+
+form input.form-control {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+form input.form-control::-moz-placeholder {
+  color: gray;
+}
+
+form input.form-control::placeholder {
+  color: gray;
+}
+
+form input.form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  margin-top: 2.5%;
+  border-top: 1px solid gray;
+  padding-top: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+  .connection-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .connection-container div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .connection-container div img {
+    width: 40%;
+  }
+  .connection-container .form-container {
+    width: 100%;
+  }
+  .connection-container .form-container form {
+    right: 0;
+  }
+}
 body {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .section1 {
@@ -53,73 +159,6 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 4%;
-}
-
-.section1 h2 {
-  margin-top: 5%;
-}
-
-.section1 p {
-  margin-top: 1%;
-}
-
-.section2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  margin-top: 0%;
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.section2 img {
-  position: absolute;
-  opacity: 30%;
-  max-width: 100vw;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  transform: scale(1.25);
-}
-
-.content {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 2.5%;
-}
-
-.content div {
-  margin-bottom: 10%;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.5;
-}
-
-.content .left {
-  margin-right: 50%;
-}
-
-.content .right {
-  margin-left: 50%;
-}
-
-.content div p {
-  word-break: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
-  max-width: 1000px;
-  font-size: 25px;
-}
-
-.content div h2 {
-  font-size: 35px;
 }
 
 .top {
@@ -188,6 +227,115 @@ h1 {
   font-size: 80px;
 }
 
+.coin {
+  width: 10%;
+  position: absolute;
+}
+
+.coin.one {
+  top: 30%;
+  left: 15%;
+}
+
+.coin.two {
+  top: 40%;
+  right: 10%;
+}
+
+.coin.three {
+  top: 50%;
+  right: 20%;
+}
+
+.coin.four {
+  top: 55%;
+  left: 5%;
+}
+
+.coin.five {
+  top: 120%;
+  left: 30%;
+}
+
+.coin.six {
+  top: 145%;
+  right: 20%;
+}
+
+.plant-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.plant-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-and-line {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  gap: 10px;
+}
+.text-and-line .line {
+  width: 80px;
+  height: 2px;
+  background-color: black;
+}
+.text-and-line .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.text-and-line .label {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+.text-and-line p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  max-width: 300px;
+}
+
+/* Specific positioning for each text-and-line */
+.text-and-line {
+  top: 10%;
+  left: 15%;
+  flex-direction: row-reverse;
+}
+
+.text-and-line.second {
+  top: 30%;
+  left: -1%;
+  flex-direction: row-reverse;
+}
+
+.text-and-line.third {
+  top: 36%;
+  right: 1%;
+  left: auto;
+  flex-direction: row;
+}
+.text-and-line.third .text-content {
+  align-items: center;
+  text-align: center;
+}
+
+.text-and-line.fourth {
+  top: 70%;
+  left: 10%;
+  flex-direction: row-reverse;
+}
+
 .connection-container {
   display: flex;
   gap: 50px;
@@ -216,7 +364,6 @@ h1 {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
-  margin-top: 90%;
 }
 .section3 h2 {
   font-size: 40px;
@@ -273,6 +420,51 @@ footer nav {
   .section1 h2, .section2 div h2 {
     font-size: 1.5rem;
   }
+  .section2 .coin.two {
+    top: 32%;
+    right: 30%;
+  }
+  .section2 .coin.three {
+    top: 60%;
+  }
+  .section2 .coin.five {
+    top: 25%;
+    left: 5%;
+  }
+  .section2 .coin.six {
+    top: 15%;
+    right: 10%;
+  }
+  .plant-container {
+    margin-top: 15%;
+    max-width: 750px;
+    width: 80%;
+  }
+  .plant-container .line {
+    display: none;
+  }
+  .plant-container .plant-image {
+    width: 75%;
+    margin-top: 10%;
+  }
+  .plant-container .text-and-line {
+    max-width: 400px;
+    top: -12%;
+  }
+  .plant-container .text-and-line.second {
+    max-width: 150px;
+    top: 25%;
+  }
+  .plant-container .text-and-line.third {
+    max-width: 150px;
+    top: 35%;
+  }
+  .plant-container .text-and-line.fourth {
+    top: 95%;
+  }
+  .plant-container p {
+    font-size: 0.85rem;
+  }
   h3 {
     font-size: 1rem;
   }
@@ -309,31 +501,6 @@ footer nav {
   .section1 {
     margin-top: 10%;
   }
-  .content {
-    gap: 30px;
-    top: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  .content p {
-    line-height: 1;
-  }
-  .content div h2 {
-    font-size: 1.5rem;
-  }
-  .content div p {
-    max-width: 400px;
-    font-size: 0.85rem;
-  }
-  .content .left {
-    margin-right: 35%;
-  }
-  .content .right {
-    margin-left: 35%;
-  }
-  .content div {
-    margin-bottom: 0%;
-  }
   footer p {
     margin-left: 5%;
     font-size: 0.85rem;
@@ -346,7 +513,7 @@ footer nav {
     font-size: 0.8rem;
   }
   .section3 {
-    margin-top: 150%;
+    margin-top: 30%;
   }
   .section3 h2 {
     font-size: 1.5rem;

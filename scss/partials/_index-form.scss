@@ -1,3 +1,17 @@
+.connection-container {
+    @include flex();
+
+    div img {
+      width: 40%;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+    }
+  }
+
+.form-container {
+    width: 60%;
+  }
+
 form {
     width: 100%;
     display: flex;
@@ -59,3 +73,35 @@ form {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
+
+  footer {
+    margin-top: 2.5%;
+    border-top: 1px solid gray;
+    padding-top: 2.5%;
+  }
+
+  @media screen and (max-width: 768px) {
+
+  .connection-container {
+    @include flex-column();
+
+    div {
+      @include center(horizontal);
+
+      img {
+        width: 40%;
+      }
+    }
+    
+
+    .form-container {
+      width: 100%;
+    form {
+      right: 0;
+    }
+  }
+  }
+ }
+
+
+  

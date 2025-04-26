@@ -43,6 +43,19 @@ html {
     font-size: 1rem;
   }
 }
+.connection-container {
+  display: flex;
+}
+.connection-container div img {
+  width: 40%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.form-container {
+  width: 60%;
+}
+
 form {
   width: 100%;
   display: flex;
@@ -110,6 +123,32 @@ form input.form-control:focus {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+footer {
+  margin-top: 2.5%;
+  border-top: 1px solid gray;
+  padding-top: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+  .connection-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .connection-container div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .connection-container div img {
+    width: 40%;
+  }
+  .connection-container .form-container {
+    width: 100%;
+  }
+  .connection-container .form-container form {
+    right: 0;
+  }
+}
 html {
   background-color: white !important;
 }
@@ -382,15 +421,6 @@ header p {
   padding-top: 5%;
 }
 
-.connection-container {
-  display: flex;
-}
-.connection-container div img {
-  width: 40%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-}
-
 .connection-container div {
   text-align: left;
 }
@@ -398,16 +428,6 @@ header p {
 .connection-container a {
   color: black;
   text-decoration: none;
-}
-
-.form-container {
-  width: 60%;
-}
-
-footer {
-  margin-top: 2.5%;
-  border-top: 1px solid gray;
-  padding-top: 2.5%;
 }
 
 footer p {

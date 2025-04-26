@@ -267,16 +267,6 @@ header p {
     padding-top: 5%;
   }
 
-  .connection-container {
-    @include flex();
-
-    div img {
-      width: 40%;
-      margin-top: 2.5%;
-      margin-bottom: 2.5%;
-    }
-  }
-
   .connection-container div {
     text-align: left;
   }
@@ -284,16 +274,6 @@ header p {
   .connection-container a {
     @include link-style(black);
   }
-
-  .form-container {
-    width: 60%;
-  }
-
-footer {
-  margin-top: 2.5%;
-  border-top: 1px solid gray;
-  padding-top: 2.5%;
-}
 
 
   footer p {
