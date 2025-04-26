@@ -24,18 +24,66 @@
 
     a {
         margin-bottom: 2.5%;
+        margin-top: -10%;
     }
 
     img {
         width: 50%;
         margin: auto;
-        margin-bottom: 2.5%;
-    }
-
-    .instructions {
-        @include flex-column();
+        margin-top: -5%;
     }
 }
+
+
+.how-to-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    z-index: 10;
+  }
+  
+  .how-to-text {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .dropdown-arrow {
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .dropdown-arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-details {
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgba(95, 170, 115, 0.75);
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 18px;
+
+    ul {
+        margin-top: 1.5%;
+    }
+
+    li {
+        margin-left: 2%;
+        margin-bottom: 15px;
+    }
+  }
+  
 
 
 @media screen and (max-width: 768px) {
