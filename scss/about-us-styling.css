@@ -449,15 +449,18 @@ footer nav {
   }
   .plant-container .text-and-line {
     max-width: 400px;
+    left: 12%;
     top: -12%;
   }
   .plant-container .text-and-line.second {
     max-width: 150px;
     top: 25%;
+    left: -1%;
   }
   .plant-container .text-and-line.third {
     max-width: 150px;
     top: 35%;
+    left: 62%;
   }
   .plant-container .text-and-line.fourth {
     top: 95%;
