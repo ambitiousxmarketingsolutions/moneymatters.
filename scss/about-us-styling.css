@@ -4,11 +4,11 @@
   display: inline-block;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   background-color: black;
-  font-size: 35px;
+  font-size: 40px;
   width: -moz-fit-content;
   width: fit-content;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   border-radius: 15px;
@@ -151,6 +151,15 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+  #join-us h2 {
+    font-size: 1.5rem;
+  }
+  #join-us h3 {
+    font-size: 1rem;
+  }
+  #join-us p {
+    font-size: 25px;
   }
   .connection-container {
     display: flex;
@@ -306,7 +315,7 @@ h1 {
   position: absolute;
   display: flex;
   align-items: center;
-  max-width: 300px;
+  max-width: 400px;
   gap: 10px;
 }
 .text-and-line .line {
@@ -321,32 +330,32 @@ h1 {
   text-align: left;
 }
 .text-and-line .label {
-  font-size: 1.5rem;
+  font-size: 40px;
   margin: 0;
   font-weight: bold;
 }
 .text-and-line p {
-  font-size: 1rem;
+  font-size: 20px;
   margin-top: 0.5rem;
   max-width: 300px;
 }
 
 /* Specific positioning for each text-and-line */
 .text-and-line {
-  top: 10%;
-  left: 15%;
+  top: 8%;
+  left: 10%;
   flex-direction: row-reverse;
 }
 
 .text-and-line.second {
-  top: 30%;
-  left: -1%;
+  top: 29%;
+  left: -8%;
   flex-direction: row-reverse;
 }
 
 .text-and-line.third {
   top: 36%;
-  right: 1%;
+  right: -6%;
   left: auto;
   flex-direction: row;
 }
@@ -357,7 +366,7 @@ h1 {
 
 .text-and-line.fourth {
   top: 70%;
-  left: 10%;
+  left: 2%;
   flex-direction: row-reverse;
 }
 
@@ -478,6 +487,9 @@ footer nav {
   .plant-container .text-and-line .text-content {
     align-items: center;
     text-align: center;
+  }
+  .plant-container .text-and-line h2 {
+    font-size: 1.5rem;
   }
   .plant-container .text-and-line.second {
     max-width: 150px;

@@ -127,7 +127,7 @@ h1 {
     position: absolute;
     display: flex;
     align-items: center;
-    max-width: 300px;
+    max-width: 400px;
     gap: 10px;
 
     .line {
@@ -144,13 +144,13 @@ h1 {
     }
   
     .label {
-      font-size: 1.5rem;
+      font-size: $font-h2-size;
       margin: 0;
       font-weight: bold;
     }
   
     p {
-      font-size: 1rem;
+      font-size: 20px;
       margin-top: 0.5rem;
       max-width: 300px;
     }
@@ -158,20 +158,20 @@ h1 {
   
   /* Specific positioning for each text-and-line */
   .text-and-line {
-    top: 10%;  // Around the head
-    left: 15%;
+    top: 8%;  // Around the head
+    left: 10%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.second {
-    top: 30%;  // First left leaf
-    left: -1%;
+    top: 29%;  // First left leaf
+    left: -8%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.third {
     top: 36%;  // Right side of second leaf
-    right: 1%;
+    right: -6%;
     left: auto;
     flex-direction: row; // line -> text (flip because on right)
     
@@ -183,7 +183,7 @@ h1 {
   
   .text-and-line.fourth {
     top: 70%; // Roots
-    left: 10%;
+    left: 2%;
     flex-direction: row-reverse;
   }
   
@@ -317,6 +317,10 @@ h1 {
                 align-items: center;
                 text-align: center;
             }
+
+            h2 {
+                font-size: $font-h2-mobile;
+            }
         }
 
         .text-and-line.second {
@@ -439,6 +443,8 @@ h1 {
         div {
             text-align: center;
         }
+
+
       }
 
 

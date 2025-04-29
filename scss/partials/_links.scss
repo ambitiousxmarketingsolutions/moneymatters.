@@ -23,10 +23,10 @@
     @include link-style(white);
     @include hover-rise();
     background-color: black;
-    font-size: $font-h3-size;
+    font-size: $font-h2-size;
     width: fit-content;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     border-radius: 15px;
