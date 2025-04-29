@@ -1,8 +1,34 @@
+@import 'font-sizes';
+@import 'positioning';
+
+#join-us {
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+
+    h2 {
+        font-size: $font-h2-size;
+    }
+
+    h3 {
+        font-size: $font-h3-size;
+    }
+
+    p {
+        font-size: $font-p-size;
+    }
+}
+
 .connection-container {
     @include flex();
+    padding-bottom: 2.5%;
+
+    div {
+        color: white;
+    }
 
     div img {
-      width: 40%;
+      width: 50%;
       margin-top: 2.5%;
       margin-bottom: 2.5%;
     }
@@ -39,7 +65,7 @@ form {
     width: 100%;
     padding: 15px 20px;
     font-size: 18px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 25px;
     background-color: white;
     color: black;
@@ -53,16 +79,16 @@ form {
   
   form input.form-control:focus {
     border-color: black;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgb(251, 251, 251);
   }
   
 
   .submit-btn {
-    background-color: black;
-    color: white;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
     padding: 15px 30px;
     font-size: 20px;
-    border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -75,19 +101,26 @@ form {
   }
 
   footer {
-    margin-top: 2.5%;
-    border-top: 1px solid gray;
     padding-top: 2.5%;
   }
-  
+
 
   @media screen and (max-width: 768px) {
 
+
+    #join-us {
+        @include center(horizontal);
+    }
+
+
   .connection-container {
     @include flex-column();
+    padding-bottom: 8%;
+
 
     div {
       @include center(horizontal);
+      color: white;
 
       img {
         width: 40%;
@@ -97,11 +130,13 @@ form {
 
     .form-container {
       width: 100%;
+      margin-top: 5%;
     form {
       right: 0;
     }
   }
   }
+
  }
 
 

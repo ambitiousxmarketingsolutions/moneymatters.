@@ -139,8 +139,8 @@ h1 {
     .text-content {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      text-align: center;
+      align-items: left;
+      text-align: left;
     }
   
     .label {
@@ -176,8 +176,8 @@ h1 {
     flex-direction: row; // line -> text (flip because on right)
     
     .text-content {
-      align-items: center;
-      text-align: center;
+      align-items: right;
+      text-align: right;
     }
   }
   
@@ -205,7 +205,7 @@ h1 {
   }
 
   .connection-container a {
-    @include link-style(black);
+    @include link-style(white);
   }
 
   .section3 {
@@ -214,17 +214,6 @@ h1 {
     padding-right: 5%;
     position: relative;
 
-    h2 {
-        font-size: $font-h2-size;
-    }
-
-    h3 {
-        font-size: $font-h3-size;
-    }
-
-    p {
-        font-size: $font-p-size;
-    }
 }
 
 
@@ -288,6 +277,7 @@ h1 {
 
         .coin.three {
             top: 80%;
+            right: 2.5%;
         }
 
         .coin.four {
@@ -322,22 +312,42 @@ h1 {
             max-width: 400px;
             left: 11%;
             top: -12%;
+
+            .text-content{
+                align-items: center;
+                text-align: center;
+            }
         }
 
         .text-and-line.second {
             max-width: 150px;
             top: 25%;
             left: -1%;
+            .text-content{
+                align-items: left;
+                text-align: left;
+            }
         }
 
         .text-and-line.third {
             max-width: 150px;
             top: 35%;
             left: 62%;
+            
+            .text-content{
+                align-items: right;
+                text-align: right;
+            }
         }
 
         .text-and-line.fourth {
             top: 95%;
+
+            .text-content {
+                align-items: center;
+                text-align: center;
+            }
+            
         }
 
         p {
@@ -425,6 +435,10 @@ h1 {
 
       .connection-container {
         gap: 0px;
+        
+        div {
+            text-align: center;
+        }
       }
 
 

@@ -4,6 +4,7 @@
 @import '../../scss/partials/links';
 @import '../../scss/partials/positioning';
 @import '../../scss/partials/get-connected-footer';
+@import '../../scss/partials/index-form';
 
 .section1 {
     @include center(horizontal);
@@ -88,5 +89,9 @@
 
     h1 {
         font-size: $font-h1-mobile;
+    }
+
+    li {
+        margin-left: 3%;
     }
 }

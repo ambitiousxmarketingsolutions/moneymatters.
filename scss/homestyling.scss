@@ -76,6 +76,37 @@ header p {
     @include hover-rise();
 }
 
+
+.coin {
+  width: 10%;
+  position: absolute;
+}
+
+.coin.one {
+  top: 35%;
+  left: 45%;
+}
+
+.coin.two {
+  top: 40%;
+  right: 5%;
+}
+
+.coin.three {
+  top: 60%;
+  right: 10%;
+}
+
+.coin.four {
+  top: 55%;
+  left: 30%;
+}
+
+.coin.five {
+  top: 85%;
+  left: 35%;
+}
+
 .hero {
   @include flex();
 
@@ -261,18 +292,12 @@ header p {
     font-size: $font-h2-size;
   }
 
-  .section4 {
-    margin-top: -5%;
-    border-top: 2.5px solid black;
-    padding-top: 5%;
-  }
-
   .connection-container div {
     text-align: left;
   }
 
   .connection-container a {
-    @include link-style(black);
+    @include link-style(white);
   }
 
 
@@ -299,6 +324,7 @@ header p {
   .credits a {
     margin-left: 15px;
   }
+
 
 
 @media screen and (max-width: 768px) {

@@ -36,6 +36,7 @@
 
             <section class="final" id="join-us">
                 <h2>Get Connected</h2>
+                <h3>Enter Your Email</h3>
                 <div class="connection-container">
                     <div>
                         <a href="">
@@ -45,12 +46,21 @@
                         </a>
                     </div>
 
-                    <div>
-                        <a href="">
-                            <img src="" alt="">
-                            <h3>Enter Your Email</h3>
-                            <p>Please submit the google form to receive other valuable insights.</p>
-                        </a>
+                    <div class="form-container">
+                        <form id="signup-form" action="https://formspree.io/f/xovdvjng" method="POST">
+                            <div class="row">
+                              <div class="col">
+                                <input type="text" name="first_name" class="form-control" placeholder="First name">
+                              </div>
+                              <div class="col">
+                                <input type="text" name="last_name" class="form-control" placeholder="Last name">
+                              </div>
+                            </div>
+                            <div class="row" id="email">
+                                <input type="text" name="email" class="form-control" placeholder="Email">
+                            </div>
+                            <button type="submit" class="submit-btn">Submit</button>
+                          </form>
                     </div>
                 </div>
             </section>

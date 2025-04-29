@@ -195,19 +195,6 @@ h1 {
   font-size: 40px;
 }
 
-.connection-container {
-  display: flex;
-  gap: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.connection-container div img {
-  width: 50%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-}
-
 .connection-container div {
   text-align: left;
 }
@@ -218,7 +205,7 @@ h1 {
 }
 
 footer {
-  margin-top: 2.5%;
+  padding-top: 2.5%;
 }
 
 footer p {
@@ -263,6 +250,137 @@ footer nav {
   .credits a {
     margin-left: 5px;
     font-size: 0.8rem;
+  }
+}
+#join-us {
+  background-color: black;
+  color: white;
+  padding-top: 5%;
+}
+#join-us h2 {
+  font-size: 40px;
+}
+#join-us h3 {
+  font-size: 35px;
+}
+#join-us p {
+  font-size: 25px;
+}
+
+.connection-container {
+  display: flex;
+  padding-bottom: 2.5%;
+}
+.connection-container div {
+  color: white;
+}
+.connection-container div img {
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.form-container {
+  width: 60%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  right: 25%;
+}
+
+form .row {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row #email {
+  width: 100%;
+}
+
+form .col {
+  flex: 1;
+}
+
+form input.form-control {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+form input.form-control::-moz-placeholder {
+  color: gray;
+}
+
+form input.form-control::placeholder {
+  color: gray;
+}
+
+form input.form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 5px rgb(251, 251, 251);
+}
+
+.submit-btn {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  padding-top: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+  #join-us {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .connection-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8%;
+  }
+  .connection-container div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .connection-container div img {
+    width: 40%;
+  }
+  .connection-container .form-container {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .connection-container .form-container form {
+    right: 0;
   }
 }
 .section1 {
@@ -341,5 +459,8 @@ footer nav {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
+  }
+  li {
+    margin-left: 3%;
   }
 }/*# sourceMappingURL=indiv-tool-styling.css.map */
