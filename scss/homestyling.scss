@@ -8,6 +8,8 @@
 
 @import 'partials/index-form';
 
+@import 'partials/hamburger';
+
 html {
   background-color: white !important;
 }
@@ -397,9 +399,12 @@ header p {
     font-size: $font-h3-mobile;
    }
 
-   .top {
-    gap: 8px;
+   .hamburger {
     top: 12.5%;
+   }
+
+   .top {
+    gap: 5px;
    }
 
    .top a {
@@ -418,10 +423,6 @@ header p {
    header p {
     font-size: $font-p-mobile;
     top: 13%;
-   }
-
-   .blog-link {
-    display: none;
    }
 
    .tools-container {

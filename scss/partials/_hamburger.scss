@@ -8,6 +8,15 @@
 // Mobile-specific styling
 @media screen and (max-width: 768px) {
 
+  #mobileMenu {
+    display: none !important;
+  }
+  
+  #mobileMenu.show {
+    display: flex !important;
+    flex-direction: column;
+  }
+  
   .top {
     display: none;
     flex-direction: column;

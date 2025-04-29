@@ -1,17 +1,24 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const menuToggle = document.querySelector(".hamburger");
     const nav = document.querySelector(".top");
 
+    // Force nav to be hidden on load
+    nav.classList.remove("show");
+    nav.style.display = "none";
+
     menuToggle.addEventListener("click", function () {
-        // Toggle inline display style
-        if (nav.style.display === "flex") {
-            nav.style.display = "none";
-        } else {
+        const isVisible = nav.classList.toggle("show");
+
+        // Toggle display manually
+        if (isVisible) {
             nav.style.display = "flex";
+        } else {
+            nav.style.display = "none";
         }
     });
 });
+
+
 
 
 
