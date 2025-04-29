@@ -466,6 +466,23 @@ footer {
   margin-bottom: 15px;
 }
 
+.green {
+  color: #61AC74;
+}
+
+.black-white {
+  background-color: black;
+  color: white;
+}
+
+.lightblue {
+  color: rgb(116, 175, 197);
+}
+
+.bold {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
