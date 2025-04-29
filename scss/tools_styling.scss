@@ -8,6 +8,8 @@
 
 @import 'partials/index-form';
 
+@import 'partials/hamburger';
+
 
 .top {
     position: absolute;
@@ -283,10 +285,6 @@ footer {
        header p {
         font-size: $font-p-mobile;
         top: 4%;
-       }
-
-       .blog-link {
-        display: none;
        }
 
     .section1 {

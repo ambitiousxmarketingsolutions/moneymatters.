@@ -8,6 +8,8 @@
 
 @import 'partials/index-form';
 
+@import 'partials/hamburger';
+
 body {
     margin-top: 15%;
 }
@@ -395,10 +397,6 @@ h1 {
         font-size: $font-p-mobile;
         top: 4%;
         @include link-style(white);
-       }
-
-       .blog-link {
-        display: none;
        }
 
     .section1 {
