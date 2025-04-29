@@ -25,6 +25,11 @@
 
     div {
         color: white;
+
+        a h3 {
+          width: 50%;
+          text-wrap: wrap;
+        }
     }
 
     div img {
@@ -36,7 +41,14 @@
 
 .form-container {
     width: 60%;
-  }
+    margin-top: -5%;
+
+    h3 {
+      position: relative;
+      right: 22%;
+      margin-bottom: 2.5%;
+    }
+}
 
 form {
     width: 100%;
@@ -143,7 +155,8 @@ form {
     .form-container {
       width: 100%;
       margin-top: 5%;
-    form {
+      @include flex-column();
+    form, h3 {
       right: 0;
     }
   }
