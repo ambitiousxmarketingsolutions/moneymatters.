@@ -1,5 +1,17 @@
 @import 'font-sizes';
 
+
+#join-us {
+  @include flex-column();
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+
+  h2 {
+      font-size: $font-h2-size;
+  }
+}
+
 .final {
     padding-left: 5%;
     padding-right: 5%;
@@ -84,6 +96,21 @@ footer {
        .credits a {
         margin-left: 5px;
         font-size: $font-a-mobile;
+      }
+
+      .social-media {
+
+        left: 75%;
+
+        h2 {
+          font-size: $font-h2-mobile;
+        }
+
+        .social-links {
+          img {
+            width: 50%;
+          }
+        }
       }
     
   }

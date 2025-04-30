@@ -81,7 +81,7 @@ html {
 }
 .form-container h3 {
   position: relative;
-  right: 22%;
+  right: 24%;
   margin-bottom: 2.5%;
 }
 
@@ -269,6 +269,17 @@ footer {
   font-style: italic;
 }
 
+#join-us {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+#join-us h2 {
+  font-size: 40px;
+}
+
 .final {
   padding-left: 5%;
   padding-right: 5%;
@@ -347,6 +358,15 @@ footer nav {
   .credits a {
     margin-left: 5px;
     font-size: 0.8rem;
+  }
+  .social-media {
+    left: 75%;
+  }
+  .social-media h2 {
+    font-size: 1.5rem;
+  }
+  .social-media .social-links img {
+    width: 50%;
   }
 }
 .top {
@@ -561,10 +581,6 @@ h1 {
 .connection-container a {
   color: white;
   text-decoration: none;
-}
-
-footer {
-  margin-top: 2.5%;
 }
 
 footer p {

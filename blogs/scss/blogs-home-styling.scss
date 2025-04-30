@@ -1,15 +1,21 @@
 @import '../../scss/partials/header';
 @import '../../scss/partials/generalstyling';
+@import '../../scss/partials/get-connected-footer';
+@import '../../scss/partials/index-form';
+@import '../../scss/partials/font-sizes';
 
 
 .blog-hero {
-    background-color: black;
-    color: white;
+    background-image: url('../../images/blog-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
     text-align: center;
     padding: 80px 20px;
   
     h1 {
-      font-size: 3rem;
+      font-size: $font-h1-size;
       margin-bottom: 20px;
     }
   
