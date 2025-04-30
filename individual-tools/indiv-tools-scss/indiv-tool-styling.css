@@ -233,6 +233,20 @@ footer nav {
   margin-left: 15px;
 }
 
+.social-media {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 80%;
+  bottom: 80px;
+}
+.social-media h2 {
+  margin-bottom: 2%;
+}
+.social-media .social-links {
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -401,6 +415,28 @@ footer {
     right: 0;
   }
 }
+.green {
+  color: #61AC74;
+  font-weight: bold;
+}
+
+.black-white {
+  background-color: black;
+  color: white;
+}
+
+.lightblue {
+  color: rgb(116, 175, 197);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
 .section1 {
   display: flex;
   justify-content: center;
@@ -473,23 +509,6 @@ footer {
 .dropdown-details li {
   margin-left: 2%;
   margin-bottom: 15px;
-}
-
-.green {
-  color: #61AC74;
-}
-
-.black-white {
-  background-color: black;
-  color: white;
-}
-
-.lightblue {
-  color: rgb(116, 175, 197);
-}
-
-.bold {
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

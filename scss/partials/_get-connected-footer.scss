@@ -47,6 +47,23 @@ footer {
     margin-left: 15px;
   }
 
+  .social-media {
+    @include flex-column();
+    position: relative;
+    left: 80%;
+    bottom: 80px;
+    
+    
+    h2 {
+      margin-bottom: 2%;
+    }
+
+    .social-links {
+      @include flex();
+    }
+
+  }
+
 
   @media screen and (max-width: 768px) {
 

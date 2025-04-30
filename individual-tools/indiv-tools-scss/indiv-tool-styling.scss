@@ -5,6 +5,7 @@
 @import '../../scss/partials/positioning';
 @import '../../scss/partials/get-connected-footer';
 @import '../../scss/partials/index-form';
+@import '../../scss/partials/text-styling';
 
 .section1 {
     @include center(horizontal);
@@ -82,23 +83,6 @@
         margin-left: 2%;
         margin-bottom: 15px;
     }
-  }
-
-  .green {
-    color: #61AC74;
-  }
-
-  .black-white {
-    background-color: black;
-    color: white;
-  }
-
-  .lightblue {
-    color: rgb(116, 175, 197);
-  }
-
-  .bold {
-    font-weight: bold;
   }
   
 
