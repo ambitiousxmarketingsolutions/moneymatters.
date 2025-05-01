@@ -251,11 +251,14 @@ footer nav {
   left: 80%;
   bottom: 80px;
 }
-.social-media h2 {
-  margin-bottom: 2%;
-}
 .social-media .social-links {
   display: flex;
+  gap: 25px;
+  margin-top: 1.5%;
+}
+.social-media .social-links img {
+  width: 35px;
+  height: 35px;
 }
 
 @media screen and (max-width: 768px) {
@@ -457,6 +460,10 @@ footer {
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .section1 {
   display: flex;
   justify-content: center;
@@ -474,6 +481,7 @@ footer {
 }
 .section1 .first-p {
   margin-bottom: 2.5%;
+  font-size: 25px;
 }
 .section1 a {
   margin-bottom: 2.5%;

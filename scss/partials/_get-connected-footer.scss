@@ -66,12 +66,15 @@ footer {
     bottom: 80px;
     
     
-    h2 {
-      margin-bottom: 2%;
-    }
 
     .social-links {
       @include flex();
+      gap: 25px;
+      margin-top: 1.5%;
+      img {
+        width: 35px;
+        height: 35px;
+      }
     }
 
   }

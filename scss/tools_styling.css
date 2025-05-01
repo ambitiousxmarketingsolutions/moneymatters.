@@ -269,6 +269,10 @@ footer {
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 #join-us {
   display: flex;
   flex-direction: column;
@@ -337,11 +341,14 @@ footer nav {
   left: 80%;
   bottom: 80px;
 }
-.social-media h2 {
-  margin-bottom: 2%;
-}
 .social-media .social-links {
   display: flex;
+  gap: 25px;
+  margin-top: 1.5%;
+}
+.social-media .social-links img {
+  width: 35px;
+  height: 35px;
 }
 
 @media screen and (max-width: 768px) {
