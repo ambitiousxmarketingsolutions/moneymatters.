@@ -689,12 +689,27 @@ footer nav {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 2.5%;
   margin-bottom: 2.5%;
 }
 
 .credits a {
   margin-left: 15px;
+}
+
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5%;
+}
+.disclaimer h3 {
+  font-size: 1rem;
+}
+.disclaimer p {
+  margin-top: 0.5%;
+  font-size: 0.85rem;
 }
 
 @media screen and (max-width: 768px) {

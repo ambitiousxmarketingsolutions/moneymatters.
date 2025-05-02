@@ -321,12 +321,26 @@ header p {
 
   .credits {
     @include center(horizontal);
-    margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
 
   .credits a {
     margin-left: 15px;
+  }
+
+  .disclaimer {
+
+    @include flex-column();
+    @include center(horizontal);
+    margin-right: 5%;
+    h3 {
+      font-size: $font-h3-mobile;
+    }
+
+    p {
+      margin-top: 0.5%;
+      font-size: $font-p-mobile;
+    }
   }
 
 
