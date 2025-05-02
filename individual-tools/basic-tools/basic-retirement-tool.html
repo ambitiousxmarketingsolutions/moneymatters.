@@ -13,14 +13,21 @@
     <body>
         <header>
             <div class="top-bar"></div>
-            <a href="../../index.html"><p>MoneyMatters.</p></a>
-            <nav class="top">
-                <a href="../../index.html">Home</a>
-                <a href="../../tools.html">Tools</a>
-                <a href="../../aboutus.html">About Us</a>
-                <a href="" class="blog-link">Blogs</a>
-                <a href="#join-us" class="block-link">Get Connected!</a>
-            </nav>
+                <a href="index.html"><p>MoneyMatters.</p></a>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                <nav class="top show" id="mobileMenu">
+                        <a href="../../index.html">Home</a>
+                        <a href="../../tools.html">Tools</a>
+                        <a href="../../aboutus.html">About Us</a>
+                        <a href="../../blogs/blogs-home.html" class="blog-link">Blogs</a>
+                    <a href="#join-us" class="block-link">Get Connected!</a>
+                </nav>
         </header>
         <main>
             <section class="section1">
@@ -30,6 +37,23 @@
                 <div class="how-to-container">
                     <p class="how-to-text">Quick Start</p>
                     <button class="dropdown-arrow" id="toggleDropdown">▼</button>
+                  </div>
+
+                  <div class="dropdown-details" id="dropdownContent">
+                    <p>
+                        The <span class="green">Investment Management Tool</span> helps to categorize, project, and optimize your investments and curate an investment strategy that works for your goals.
+
+                        <ul>
+                            <li>Adjust the <span class="black-white">black cells with white font</span> to record your information. Adjust the Risk Tolerance Cell (1,2,3). 1 being the least risky recommended for generally older individuals (55+) who rely on capital preservation and liquidity to live on. 2 is moderate risk for those looking to steadily grow while preserving capital through increased equity exposure. 3 is the greatest risk allocation of the options in this tool designed for young people with time to make gains and generally less capital at risk. (This is personal to you only and MoneyMatters does not have access until you share it with us)</li>
+
+                            <li>Notice your asset type breakdown in the pie chart. How does it compare to the recommended asset allocation based on your risk tolerance? How does your portfolio's expected return compared to the projected return target for your circumstances?</li>
+
+                            <li>The key to driving the most value out of this tool and all our tools is establishing a foundational understanding of your financial situation. The next step is to share this information with a trusted financial advisor to help you make the right choices to improve your financial health.</li>
+
+                        </ul>
+                        THIS IS NOT FINANCIAL ADVICE. INVESTMENTS HAVE RISK. MONEYMATTERS IS NOT RESPONSIBLE FOR ANY DECISION YOU MAKE BASED ON THE USE OF THESE TOOLS
+                                            
+                    </p>
                   </div>
                   
                 <img src="" alt="Basic Retirement Tool">
@@ -41,7 +65,7 @@
                 <h3>Enter Your Email</h3>
                 <div class="connection-container">
                     <div>
-                        <a href="">
+                        <a href="https://discord.com/invite/DCWFBPxh">
                         <img src="../../images/moneymatters-logo.png" alt="">
                         <h3>Join the Community & Get Plugged In</h3>
                         <p>DISCORD LINK</p>
@@ -90,6 +114,9 @@
                 <p>&copy; 2025 <a href="https://ambitiousmarketingsolutions.com/">Ambitious Marketing Solutions</a></p>
             </div>
         </footer>
+
+        <script src="../individual-tools-scripts/drop-down-text.js"></script>
+        <script src="../../scripts/hamburger.js"></script>
 
     </body>
 

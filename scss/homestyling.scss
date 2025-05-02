@@ -487,35 +487,6 @@ header p {
 
    .section4 {
     margin-top: 10%;
-   
-
-    .connection-container {
-      @include flex-column();
-
-      div {
-        @include center(horizontal);
-
-        img {
-          width: 40%;
-        }
-      }
-      
-
-      .form-container {
-        width: 100%;
-      form {
-        right: 0;
-      }
-    }
-    }
-   }
-
-   .section4 a h3 {
-    font-size: $font-h3-mobile;
-   }
-
-   .section4 a p {
-    font-size: $font-p-mobile;
    }
 
    .section5 {

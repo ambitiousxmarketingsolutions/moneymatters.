@@ -3,6 +3,7 @@
 @import '../../scss/partials/get-connected-footer';
 @import '../../scss/partials/index-form';
 @import '../../scss/partials/font-sizes';
+@import '../../scss/partials/hamburger';
 
 
 .blog-hero {
@@ -33,6 +34,11 @@
     justify-content: center;
     padding: 60px 20px;
     background-color: white;
+
+    h2 {
+        font-size: $font-h1-size;
+        color: gray;
+    }
   }
   
   .blog-card {

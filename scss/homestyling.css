@@ -171,30 +171,30 @@ footer {
   #join-us p {
     font-size: 25px;
   }
-  .connection-container {
+  #join-us .connection-container {
     display: flex;
     flex-direction: column;
     padding-bottom: 8%;
   }
-  .connection-container div {
+  #join-us .connection-container div {
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
   }
-  .connection-container div a h3 {
+  #join-us .connection-container div a h3 {
     width: 100%;
   }
-  .connection-container div img {
+  #join-us .connection-container div img {
     width: 40%;
   }
-  .connection-container .form-container {
+  #join-us .connection-container .form-container {
     width: 100%;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
   }
-  .connection-container .form-container form, .connection-container .form-container h3 {
+  #join-us .connection-container .form-container form, #join-us .connection-container .form-container h3 {
     right: 0;
   }
 }
@@ -818,30 +818,6 @@ footer nav {
   }
   .section4 {
     margin-top: 10%;
-  }
-  .section4 .connection-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .section4 .connection-container div {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  .section4 .connection-container div img {
-    width: 40%;
-  }
-  .section4 .connection-container .form-container {
-    width: 100%;
-  }
-  .section4 .connection-container .form-container form {
-    right: 0;
-  }
-  .section4 a h3 {
-    font-size: 1rem;
-  }
-  .section4 a p {
-    font-size: 0.85rem;
   }
   .section5 {
     margin-top: 5%;
