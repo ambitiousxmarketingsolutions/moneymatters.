@@ -182,6 +182,9 @@ footer {
     text-align: center;
     color: white;
   }
+  .connection-container div a h3 {
+    width: 100%;
+  }
   .connection-container div img {
     width: 40%;
   }
@@ -346,8 +349,12 @@ footer nav {
   .social-media h2 {
     font-size: 1.5rem;
   }
+  .social-media .social-links {
+    gap: 10px;
+  }
   .social-media .social-links img {
-    width: 50%;
+    width: 20px;
+    height: 20px;
   }
 }
 body {

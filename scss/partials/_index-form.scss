@@ -140,11 +140,16 @@ form {
   .connection-container {
     @include flex-column();
     padding-bottom: 8%;
+    
 
 
     div {
       @include center(horizontal);
       color: white;
+
+      a h3 {
+        width: 100%;
+      }
 
       img {
         width: 40%;
