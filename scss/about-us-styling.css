@@ -318,6 +318,9 @@ footer nav {
   left: 80%;
   bottom: 80px;
 }
+.social-media h3 {
+  font-size: 35px;
+}
 .social-media .social-links {
   display: flex;
   gap: 25px;
@@ -329,6 +332,9 @@ footer nav {
 }
 
 @media screen and (max-width: 768px) {
+  footer {
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 2.5rem;
   }
@@ -344,10 +350,11 @@ footer nav {
     font-size: 0.8rem;
   }
   .social-media {
-    left: 75%;
+    bottom: 50px;
+    left: 70%;
   }
-  .social-media h2 {
-    font-size: 1.5rem;
+  .social-media h3 {
+    font-size: 1rem;
   }
   .social-media .social-links {
     gap: 10px;
@@ -572,10 +579,6 @@ h1 {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
-}
-
-footer {
-  margin-top: 2.5%;
 }
 
 footer p {
