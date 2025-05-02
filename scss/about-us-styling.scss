@@ -163,19 +163,19 @@ h1 {
   /* Specific positioning for each text-and-line */
   .text-and-line {
     top: 8%;  // Around the head
-    left: 10%;
+    left: 12%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.second {
     top: 29%;  // First left leaf
-    left: -8%;
+    left: -6%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.third {
     top: 36%;  // Right side of second leaf
-    right: -6%;
+    right: -5%;
     left: auto;
     flex-direction: row; // line -> text (flip because on right)
     
@@ -187,7 +187,7 @@ h1 {
   
   .text-and-line.fourth {
     top: 70%; // Roots
-    left: 2%;
+    left: 4%;
     flex-direction: row-reverse;
   }
   

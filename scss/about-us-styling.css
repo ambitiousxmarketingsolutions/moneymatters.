@@ -517,19 +517,19 @@ h1 {
 /* Specific positioning for each text-and-line */
 .text-and-line {
   top: 8%;
-  left: 10%;
+  left: 12%;
   flex-direction: row-reverse;
 }
 
 .text-and-line.second {
   top: 29%;
-  left: -8%;
+  left: -6%;
   flex-direction: row-reverse;
 }
 
 .text-and-line.third {
   top: 36%;
-  right: -6%;
+  right: -5%;
   left: auto;
   flex-direction: row;
 }
@@ -540,7 +540,7 @@ h1 {
 
 .text-and-line.fourth {
   top: 70%;
-  left: 2%;
+  left: 4%;
   flex-direction: row-reverse;
 }
 
