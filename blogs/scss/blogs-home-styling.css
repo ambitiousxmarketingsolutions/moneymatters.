@@ -201,8 +201,8 @@ footer nav {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 2.5%;
   margin-bottom: 2.5%;
+  margin-top: -5%;
 }
 
 .credits a {
@@ -214,7 +214,7 @@ footer nav {
   flex-direction: column;
   position: relative;
   left: 80%;
-  bottom: 80px;
+  bottom: 100px;
 }
 .social-media h3 {
   font-size: 35px;
@@ -227,6 +227,22 @@ footer nav {
 .social-media .social-links img {
   width: 35px;
   height: 35px;
+}
+
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5%;
+}
+.disclaimer h3 {
+  font-size: 1rem;
+}
+.disclaimer p {
+  margin-top: 0.5%;
+  font-size: 0.85rem;
 }
 
 @media screen and (max-width: 768px) {

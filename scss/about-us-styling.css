@@ -303,8 +303,8 @@ footer nav {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 2.5%;
   margin-bottom: 2.5%;
+  margin-top: -5%;
 }
 
 .credits a {
@@ -316,7 +316,7 @@ footer nav {
   flex-direction: column;
   position: relative;
   left: 80%;
-  bottom: 80px;
+  bottom: 100px;
 }
 .social-media h3 {
   font-size: 35px;
@@ -329,6 +329,22 @@ footer nav {
 .social-media .social-links img {
   width: 35px;
   height: 35px;
+}
+
+.disclaimer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5%;
+}
+.disclaimer h3 {
+  font-size: 1rem;
+}
+.disclaimer p {
+  margin-top: 0.5%;
+  font-size: 0.85rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -445,6 +461,7 @@ h1 {
 .coin {
   width: 10%;
   position: absolute;
+  opacity: 75%;
 }
 
 .coin.one {
@@ -496,7 +513,7 @@ h1 {
   position: absolute;
   display: flex;
   align-items: center;
-  max-width: 400px;
+  max-width: 500px;
   gap: 10px;
 }
 .text-and-line .line {
@@ -518,25 +535,25 @@ h1 {
 .text-and-line p {
   font-size: 20px;
   margin-top: 0.5rem;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 /* Specific positioning for each text-and-line */
 .text-and-line {
-  top: 8%;
-  left: 12%;
+  top: 10%;
+  left: 2.5%;
   flex-direction: row-reverse;
 }
 
 .text-and-line.second {
-  top: 29%;
-  left: -6%;
+  top: 32%;
+  left: -15%;
   flex-direction: row-reverse;
 }
 
 .text-and-line.third {
-  top: 36%;
-  right: -5%;
+  top: 37%;
+  right: -15%;
   left: auto;
   flex-direction: row;
 }
@@ -547,7 +564,7 @@ h1 {
 
 .text-and-line.fourth {
   top: 70%;
-  left: 4%;
+  left: -2.5%;
   flex-direction: row-reverse;
 }
 
@@ -601,7 +618,6 @@ footer nav {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 2.5%;
   margin-bottom: 2.5%;
 }
 

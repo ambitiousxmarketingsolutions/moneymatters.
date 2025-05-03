@@ -80,6 +80,7 @@ h1 {
 .coin {
     width: 10%;
     position: absolute;
+    opacity: 75%;
 }
 
 .coin.one {
@@ -131,7 +132,7 @@ h1 {
     position: absolute;
     display: flex;
     align-items: center;
-    max-width: 400px;
+    max-width: 500px;
     gap: 10px;
 
     .line {
@@ -156,26 +157,26 @@ h1 {
     p {
       font-size: 20px;
       margin-top: 0.5rem;
-      max-width: 300px;
+      max-width: 500px;
     }
   }
   
   /* Specific positioning for each text-and-line */
   .text-and-line {
-    top: 8%;  // Around the head
-    left: 12%;
+    top: 10%;  // Around the head
+    left: 2.5%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.second {
-    top: 29%;  // First left leaf
-    left: -6%;
+    top: 32%;  // First left leaf
+    left: -15%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.third {
-    top: 36%;  // Right side of second leaf
-    right: -5%;
+    top: 37%;  // Right side of second leaf
+    right: -15%;
     left: auto;
     flex-direction: row; // line -> text (flip because on right)
     
@@ -187,7 +188,7 @@ h1 {
   
   .text-and-line.fourth {
     top: 70%; // Roots
-    left: 4%;
+    left: -2.5%;
     flex-direction: row-reverse;
   }
   
@@ -237,7 +238,6 @@ h1 {
 
   .credits {
     @include center(horizontal);
-    margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
 
