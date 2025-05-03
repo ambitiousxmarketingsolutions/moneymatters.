@@ -28,6 +28,16 @@
 
   .connection-container a {
     @include link-style(white);
+    
+    p {
+      text-decoration: underline;
+    }
+  }
+
+  .connection-container a:hover {
+    p {
+      text-decoration: none;
+    }
   }
 
 footer {

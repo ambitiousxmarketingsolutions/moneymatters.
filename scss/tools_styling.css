@@ -304,6 +304,13 @@ footer {
   color: white;
   text-decoration: none;
 }
+.connection-container a p {
+  text-decoration: underline;
+}
+
+.connection-container a:hover p {
+  text-decoration: none;
+}
 
 footer {
   padding-top: 2.5%;
