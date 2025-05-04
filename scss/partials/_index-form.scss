@@ -141,6 +141,11 @@ form {
     @include flex-column();
     padding-bottom: 8%;
     @include center(horizontal);
+    
+    a {
+      text-align: center;
+    }
+    
 
     div {
       @include center(horizontal);

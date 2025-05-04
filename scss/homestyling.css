@@ -179,6 +179,9 @@ footer {
     justify-content: center;
     text-align: center;
   }
+  .connection-container a {
+    text-align: center;
+  }
   .connection-container div {
     display: flex;
     justify-content: center;
@@ -722,6 +725,10 @@ footer nav {
   margin-left: 15px;
 }
 
+.social-media {
+  bottom: 120px;
+}
+
 .disclaimer {
   display: flex;
   flex-direction: column;
@@ -864,7 +871,7 @@ footer nav {
   .links-container div {
     word-wrap: break-word;
   }
-  .section4 {
+  #join-us {
     margin-top: 10%;
   }
   footer p {

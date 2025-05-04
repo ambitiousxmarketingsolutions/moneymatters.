@@ -330,6 +330,10 @@ header p {
     margin-left: 15px;
   }
 
+  .social-media {
+    bottom: 120px;
+  }
+
   .disclaimer {
 
     @include flex-column();
@@ -501,9 +505,10 @@ header p {
     word-wrap: break-word;
    }
 
-   .section4 {
+   #join-us {
     margin-top: 10%;
    }
+
 
    footer p {
     margin-left: 5%;
