@@ -134,13 +134,13 @@ form {
         p {
             font-size: $font-p-size;
         }
+    }
 
 
   .connection-container {
     @include flex-column();
     padding-bottom: 8%;
-    
-
+    @include center(horizontal);
 
     div {
       @include center(horizontal);
@@ -165,8 +165,6 @@ form {
     }
   }
   }
-
-}
 
  }
 

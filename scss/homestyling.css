@@ -171,30 +171,33 @@ footer {
   #join-us p {
     font-size: 25px;
   }
-  #join-us .connection-container {
+  .connection-container {
     display: flex;
     flex-direction: column;
     padding-bottom: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
-  #join-us .connection-container div {
+  .connection-container div {
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
   }
-  #join-us .connection-container div a h3 {
+  .connection-container div a h3 {
     width: 100%;
   }
-  #join-us .connection-container div img {
+  .connection-container div img {
     width: 40%;
   }
-  #join-us .connection-container .form-container {
+  .connection-container .form-container {
     width: 100%;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
   }
-  #join-us .connection-container .form-container form, #join-us .connection-container .form-container h3 {
+  .connection-container .form-container form, .connection-container .form-container h3 {
     right: 0;
   }
 }
@@ -468,6 +471,7 @@ header p {
 .coin {
   width: 10%;
   position: absolute;
+  opacity: 75%;
 }
 
 .coin.one {
@@ -683,13 +687,12 @@ header p {
   font-size: 40px;
 }
 
-.connection-container div {
-  text-align: left;
+#join-us {
+  margin-top: -5%;
 }
 
-.connection-container a {
-  color: white;
-  text-decoration: none;
+.connection-container div {
+  text-align: left;
 }
 
 footer p {

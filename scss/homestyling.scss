@@ -84,6 +84,7 @@ header p {
 .coin {
   width: 10%;
   position: absolute;
+  opacity: 75%;
 }
 
 .coin.one {
@@ -296,13 +297,14 @@ header p {
     font-size: $font-h2-size;
   }
 
+  #join-us {
+    margin-top: -5%;
+  }
+
   .connection-container div {
     text-align: left;
   }
 
-  .connection-container a {
-    @include link-style(white);
-  }
 
 
   footer p {
