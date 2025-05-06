@@ -549,7 +549,6 @@ footer {
     gap: 5px;
     position: absolute;
     right: 20px;
-    top: 5%;
     transform: translateY(-50%);
     z-index: 1001;
   }
