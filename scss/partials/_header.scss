@@ -71,19 +71,17 @@ h1 {
         font-size: $font-h1-mobile;
     }
 
+    .top-bar {
+        height: 125px;
+       }
 
     .top {
         gap: 8px;
-        top: 3.25%;
        }
     
        .top a {
         font-size: 14px;
        }
-
-       .top-bar {
-        height: 70px;
-      }
 
        .block-link {
         border-radius: 8px;
@@ -93,11 +91,15 @@ h1 {
         padding-bottom: 7px;
         font-size: 10px !important;
        }
-    
 
+       .hamburger {
+        top: 13%;
+       }
+
+    
        header p {
         font-size: $font-p-mobile;
-        top: 4%;
+        top: 13%;
         @include link-style(white);
        }
 

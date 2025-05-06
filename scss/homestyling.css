@@ -791,9 +791,6 @@ footer nav {
     margin: auto;
     margin-bottom: 5%;
   }
-  header img {
-    top: 8%;
-  }
   h2 {
     font-size: 1.5rem;
   }
@@ -804,7 +801,7 @@ footer nav {
     top: 13%;
   }
   .top {
-    gap: 5px;
+    gap: 8px;
   }
   .top a {
     font-size: 14px;

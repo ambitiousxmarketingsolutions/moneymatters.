@@ -532,15 +532,14 @@ h1 {
   h1 {
     font-size: 2.5rem;
   }
+  .top-bar {
+    height: 125px;
+  }
   .top {
     gap: 8px;
-    top: 3.25%;
   }
   .top a {
     font-size: 14px;
-  }
-  .top-bar {
-    height: 70px;
   }
   .block-link {
     border-radius: 8px;
@@ -550,9 +549,12 @@ h1 {
     padding-bottom: 7px;
     font-size: 10px !important;
   }
+  .hamburger {
+    top: 13%;
+  }
   header p {
     font-size: 0.85rem;
-    top: 4%;
+    top: 13%;
     color: white;
     text-decoration: none;
   }
@@ -761,28 +763,6 @@ footer nav {
   }
   .section2 p, .section3 p {
     font-size: 0.85rem;
-  }
-  .top {
-    gap: 8px;
-    top: 3.25%;
-  }
-  .top-bar {
-    height: 70px;
-  }
-  .top a {
-    font-size: 14px;
-  }
-  .block-link {
-    border-radius: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 10px !important;
-  }
-  header p {
-    font-size: 0.85rem;
-    top: 4%;
   }
   .section1 {
     margin-top: 10%;
