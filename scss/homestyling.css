@@ -310,13 +310,17 @@ footer nav {
   margin-top: 2.5%;
   gap: 15px;
 }
+footer nav a {
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+}
 
 .credits {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-bottom: 2.5%;
-  margin-top: -5%;
 }
 
 .credits a {
@@ -351,6 +355,7 @@ footer nav {
   text-align: center;
   margin-right: 5%;
   margin-bottom: 2.5%;
+  margin-top: -5%;
 }
 .disclaimer h3 {
   font-size: 1rem;
@@ -706,6 +711,13 @@ footer nav {
   gap: 15px;
 }
 
+.tradingview-widget-copyright {
+  position: absolute;
+  float: left;
+  margin-left: 5%;
+  color: black;
+}
+
 .credits {
   display: flex;
   justify-content: center;
@@ -718,7 +730,7 @@ footer nav {
 }
 
 .social-media {
-  bottom: 120px;
+  bottom: 100px;
 }
 
 .disclaimer {

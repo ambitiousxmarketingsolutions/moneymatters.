@@ -313,6 +313,13 @@ header p {
     gap: 15px;
   }
 
+  .tradingview-widget-copyright {
+    position: absolute;
+    float: left;
+    margin-left: 5%;
+    color: black;
+  }
+
   .credits {
     @include center(horizontal);
     margin-bottom: 2.5%;
@@ -323,7 +330,7 @@ header p {
   }
 
   .social-media {
-    bottom: 120px;
+    bottom: 100px;
   }
 
   .disclaimer {

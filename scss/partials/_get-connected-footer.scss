@@ -57,12 +57,16 @@ footer {
     margin-left: 5%;
     margin-top: 2.5%;
     gap: 15px;
+
+    a {
+      @include link-style(black);
+      text-decoration: underline;
+    }
   }
 
   .credits {
     @include center(horizontal);
     margin-bottom: 2.5%;
-    margin-top: -5%;
   }
 
   .credits a {
@@ -97,6 +101,7 @@ footer {
     @include center(horizontal);
     margin-right: 5%;
     margin-bottom: 2.5%;
+    margin-top: -5%;
     h3 {
       font-size: $font-h3-mobile;
     }
