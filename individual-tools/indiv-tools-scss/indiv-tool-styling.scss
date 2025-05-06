@@ -88,6 +88,38 @@
   }
   
 
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10%;
+  }
+  
+  .tool-card {
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    margin-bottom: 10%;
+
+    h2 {
+        margin-bottom: 2.5%;
+    }
+  }
+  
+  
+  .tool-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-bottom: 10%;
+  }
+  
+
 
 @media screen and (max-width: 768px) {
 
