@@ -5,7 +5,7 @@
 .top {
     position: absolute;
     right: 2.5%;
-    top: 5%;
+    top: 12%;
     display: flex;
     gap: 45px;
     @include center(vertical);
@@ -21,23 +21,26 @@
     text-decoration: underline;
 }
 
-.top-bar {
-    position: absolute;
-    top: 0;
-    background-color: black;
-    width: 100vw;
-    height: 120px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
 header p {
     position: absolute;
-    top: 6%;
+    top: 13%;
     left: 5%;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     @include center(vertical);
     @include link-style(white);
+}
+
+
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 165px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: -1;
 }
 
 .block-link {
@@ -50,6 +53,7 @@ header p {
     padding-bottom: 14px;
     @include hover-rise();
 }
+
 
 .section1 {
     @include center(horizontal);

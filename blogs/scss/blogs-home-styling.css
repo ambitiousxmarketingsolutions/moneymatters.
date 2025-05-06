@@ -36,7 +36,7 @@
 .top {
   position: absolute;
   right: 2.5%;
-  top: 5%;
+  top: 12%;
   display: flex;
   gap: 45px;
   display: flex;
@@ -55,26 +55,27 @@
   text-decoration: underline;
 }
 
-.top-bar {
-  position: absolute;
-  top: 0;
-  background-color: black;
-  width: 100vw;
-  height: 120px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 header p {
   position: absolute;
-  top: 6%;
+  top: 13%;
   left: 5%;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   text-align: center;
   color: white;
   text-decoration: none;
+}
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 165px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: -1;
 }
 
 .block-link {
@@ -243,6 +244,7 @@ footer nav {
   justify-content: center;
   text-align: center;
   margin-right: 5%;
+  margin-bottom: 2.5%;
 }
 .disclaimer h3 {
   font-size: 1rem;
@@ -506,6 +508,8 @@ footer {
   color: black;
   text-align: center;
   padding: 80px 20px;
+  z-index: -5;
+  position: relative;
 }
 .blog-hero h1 {
   font-size: 80px;

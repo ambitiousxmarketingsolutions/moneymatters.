@@ -351,6 +351,7 @@ footer nav {
   justify-content: center;
   text-align: center;
   margin-right: 5%;
+  margin-bottom: 2.5%;
 }
 .disclaimer h3 {
   font-size: 1rem;
@@ -399,14 +400,6 @@ html {
 
 h2 {
   font-size: 40px;
-}
-
-header img {
-  width: 100vw;
-  position: absolute;
-  z-index: -5;
-  top: 0;
-  opacity: 35%;
 }
 
 .top {

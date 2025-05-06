@@ -96,6 +96,7 @@ footer {
     @include flex-column();
     @include center(horizontal);
     margin-right: 5%;
+    margin-bottom: 2.5%;
     h3 {
       font-size: $font-h3-mobile;
     }
