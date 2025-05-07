@@ -91,10 +91,11 @@
   .tool-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
-    width: 100%;
+    gap: 50px;
+    width: 80%;
     padding: 20px;
     margin-bottom: 10%;
+    margin: auto;
   }
   
   .tool-card {
@@ -103,10 +104,9 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
     transition: transform 0.3s ease;
-    margin-bottom: 10%;
 
     h2 {
-        margin-bottom: 2.5%;
+        margin-top: 2.5%;
     }
   }
   
@@ -116,7 +116,6 @@
     height: auto;
     border-radius: 4px;
     margin-bottom: 15px;
-    margin-bottom: 10%;
   }
   
 
