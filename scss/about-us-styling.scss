@@ -79,7 +79,7 @@ h1 {
     position: absolute;
     display: flex;
     align-items: center;
-    max-width: 400px;
+    max-width: 425px;
     gap: 10px;
 
     .line {
@@ -96,13 +96,13 @@ h1 {
     }
   
     .label {
-      font-size: $font-h2-size;
+      font-size: 50px;
       margin: 0;
       font-weight: bold;
     }
   
     p {
-      font-size: 20px;
+      font-size: 25px;
       margin-top: 0.5rem;
       max-width: 500px;
     }
@@ -110,28 +110,28 @@ h1 {
   
   /* Specific positioning for each text-and-line */
   .text-and-line {
-    top: 10%;  // Around the head
-    left: 7.5%;
+    top: 6%;  // Around the head
+    left: 7%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.second {
-    top: 32%;  // First left leaf
-    left: -5%;
+    top: 30%;  // First left leaf
+    left: -8%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.third {
-    top: 37%;  // Right side of second leaf
-    right: -5%;
+    top: 35%;  // Right side of second leaf
+    right: -8%;
     left: auto;
     flex-direction: row; // line -> text (flip because on right)
     
   }
   
   .text-and-line.fourth {
-    top: 70%; // Roots
-    left: 2.5%;
+    top: 68%; // Roots
+    left: -1%;
     flex-direction: row-reverse;
   }
   

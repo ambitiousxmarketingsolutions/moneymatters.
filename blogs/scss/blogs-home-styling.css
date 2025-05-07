@@ -316,10 +316,6 @@ footer nav a {
 .connection-container div {
   color: white;
 }
-.connection-container div a h3 {
-  width: 50%;
-  text-wrap: wrap;
-}
 .connection-container div img {
   width: 50%;
   margin-top: 2.5%;
@@ -328,7 +324,7 @@ footer nav a {
 
 .form-container {
   width: 60%;
-  margin-top: -5%;
+  margin-top: -2.5%;
 }
 .form-container h3 {
   position: relative;
