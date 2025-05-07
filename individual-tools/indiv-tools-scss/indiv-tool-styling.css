@@ -633,6 +633,7 @@ footer {
   border-radius: 10px;
   width: 70%;
   font-size: 18px;
+  padding-left: 2.5%;
 }
 .dropdown-details ul {
   margin-top: 1.5%;
@@ -673,6 +674,9 @@ footer {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
+  }
+  .dropdown-details {
+    padding-left: 8%;
   }
   li {
     margin-left: 3%;

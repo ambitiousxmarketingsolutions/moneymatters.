@@ -76,6 +76,7 @@
     border-radius: 10px;
     width: 70%;
     font-size: 18px;
+    padding-left: 2.5%;
 
     ul {
         margin-top: 1.5%;
@@ -124,6 +125,10 @@
 
     h1 {
         font-size: $font-h1-mobile;
+    }
+
+    .dropdown-details {
+      padding-left: 8%;
     }
 
     li {
