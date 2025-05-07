@@ -79,7 +79,7 @@ h1 {
     position: absolute;
     display: flex;
     align-items: center;
-    max-width: 500px;
+    max-width: 400px;
     gap: 10px;
 
     .line {
@@ -111,19 +111,19 @@ h1 {
   /* Specific positioning for each text-and-line */
   .text-and-line {
     top: 10%;  // Around the head
-    left: 2.5%;
+    left: 7.5%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.second {
     top: 32%;  // First left leaf
-    left: -15%;
+    left: -5%;
     flex-direction: row-reverse;
   }
   
   .text-and-line.third {
     top: 37%;  // Right side of second leaf
-    right: -15%;
+    right: -5%;
     left: auto;
     flex-direction: row; // line -> text (flip because on right)
     
@@ -131,7 +131,7 @@ h1 {
   
   .text-and-line.fourth {
     top: 70%; // Roots
-    left: -2.5%;
+    left: 2.5%;
     flex-direction: row-reverse;
   }
   
