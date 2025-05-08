@@ -65,7 +65,18 @@
 
             <nav class="top">
                 <a href="index.html">Home</a>
-                <a href="tools.html">Tools</a>
+                
+                <div class="hoverdown" id="toolsHoverdown">
+                    <a href="tools.html" id="toolsToggle">Tools</a>
+                    <div class="hoverdown-menu">
+                        <a href="individual-tools/basic-tools/basic-budget-tool.html">Basic Budgeting</a>
+                        <a href="individual-tools/basic-tools/basic-investment-tool.html">Investment Management</a>
+                        <a href="individual-tools/basic-tools/basic-retirement-tool.html">Retirement Planning</a>
+                        <a href="individual-tools/basic-tools/net-worth-calculator.html">Net Worth Calculator</a>
+                        <a href="individual-tools/advanced-tools/advanced-budget-tool.html">Advanced Budgeting</a>
+                        <a href="individual-tools/advanced-tools/advanced-investment-tool.html">Advanced Investment Management</a>
+                    </div>
+                </div>
                 <a href="aboutus.html">About Us</a>
                 <a href="blogs/blogs-home.html" class="blog-link">Blogs</a>
                 <a href="#join-us" class="block-link">Get Connected!</a>
@@ -119,7 +130,7 @@
                     <div class="tools-content">
                         <div>
                             <h3><a href="individual-tools/basic-tools/net-worth-calculator.html">Net Worth Calculator Tool</a></h3>
-                            <p>The “secret” to building wealth is save often and invest responsibly. Analyze how your investment strategies compares to your long term goals.</p> <!--<a href="">Explanation Video</a></p>-->
+                            <p>Do you own your assets, or do your assets own you?</p> <!--<a href="">Explanation Video</a></p>-->
                         </div>
                         <img src="images/net-worth-calculator-laptop.png" alt="Net Worth Calculator Tool">
                     </div>
@@ -144,7 +155,7 @@
                     <div class="tools-content">
                         <div>
                             <h3><a href="individual-tools/advanced-tools/advanced-investment-tool.html">Advanced Investment Mangagement Tool</a></h3>
-                            <p>The “secret” to building wealth is save often and invest responsibly. Analyze how your investment strategies compares to your long term goals.</p> <!--<a href="">Explanation Video</a></p>-->
+                            <p>This tool is for people who want specific lists of quality securities. <span class="bold">NOT INVESTMENT ADVICE, FOR EDUCATION PURPOSES ONLY</span></p> <!--<a href="">Explanation Video</a></p>-->
                         </div>
                         <img src="images/advanced-investment-laptop.png" alt="Advanced Investment Management Tool">
                     </div>
@@ -220,6 +231,7 @@
         </footer>
 
         <script src="scripts/hamburger.js"></script>
+        <script src="scripts/tools-links-dropdown.js"></script>
     </body>
 
 </html>

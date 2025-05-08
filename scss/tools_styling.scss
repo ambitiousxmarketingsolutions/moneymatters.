@@ -130,29 +130,6 @@ h1 {
 }
 
 
-.section4 {
-    @include flex-column();
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
-
-    h2 {
-        font-size: $font-h2-size;
-    }
-}
-
-.connection-container {
-    @include flex();
-    gap: 50px;
-    @include center(horizontal);
-
-    div img {
-        width: 50%;
-        margin-top: 2.5%;
-        margin-bottom: 2.5%;
-      }
-  }
-
   .connection-container div {
     text-align: left;
   }

@@ -105,6 +105,36 @@ header p {
   text-decoration: none !important;
 }
 
+.hoverdown {
+  position: relative;
+}
+.hoverdown .hoverdown-menu {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  background: black;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  z-index: 100;
+  padding: 15px;
+  border-radius: 6px;
+}
+.hoverdown:hover .hoverdown-menu {
+  display: block;
+}
+.hoverdown.show-menu .hoverdown-menu {
+  display: block;
+}
+
+.hoverdown-menu a {
+  font-size: 20px;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
 .section1 {
   display: flex;
   justify-content: center;
