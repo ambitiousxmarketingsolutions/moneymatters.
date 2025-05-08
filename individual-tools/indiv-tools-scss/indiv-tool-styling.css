@@ -57,7 +57,7 @@ html {
 .top {
   position: absolute;
   right: 2.5%;
-  top: 13%;
+  top: 12%;
   display: flex;
   gap: 45px;
   display: flex;
@@ -78,7 +78,7 @@ html {
 
 header p {
   position: absolute;
-  top: 14%;
+  top: 13%;
   left: 5%;
   font-weight: 600;
   font-size: 30px;
