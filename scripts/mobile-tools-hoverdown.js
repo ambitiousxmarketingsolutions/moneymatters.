@@ -41,7 +41,6 @@
 
   // Reset when hamburger is clicked (menu toggle)
   hamburger.addEventListener("click", function () {
-    mobileMenu.classList.toggle("show"); // Toggle the menu
     toolsHoverdown.classList.remove("show-menu"); // Reset dropdown
     toolsClickedOnce = false;
   });
