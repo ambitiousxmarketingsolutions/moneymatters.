@@ -131,6 +131,26 @@ h1 {
         top: 13%;
        }
 
+       .hoverdown {
+        width: 100%;
+    
+        > a {
+          display: block;
+          width: 100%;
+          text-align: left;
+          border-bottom: 1px solid #eee;
+        }
+    
+        .hoverdown-menu {
+          position: static;
+          transform: none;
+          left: auto;
+          padding-left: 1rem;
+          background: transparent;
+          box-shadow: none;
+        }
+      }
+
     
        header p {
         font-size: $font-p-mobile;

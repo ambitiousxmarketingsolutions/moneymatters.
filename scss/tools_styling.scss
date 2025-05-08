@@ -57,6 +57,7 @@ h1 {
 }
 
 .section3 {
+    margin-bottom: -2%;
     h2 {
         margin-bottom: 3%;
     }
@@ -74,7 +75,7 @@ h1 {
 
 
 #last-listed-tool {
-    border-bottom: none;
+    border-bottom: none !important;
 }
 
 .section2 h2, .section3 h2 {
@@ -126,10 +127,15 @@ h1 {
 }
 
 .tools-content img {
-    width: 50%;
+    max-width: 500px;
     margin-top: 2.5%;
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
 }
+
+.tools-content img:hover {
+    transform: translateY(-8px); /* Lifts image upward */
+  }
 
 
   .connection-container div {

@@ -31,9 +31,21 @@
     }
 
     img {
-        width: 50%;
+        width: 680px;
         margin: auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: inline-block;
     }
+
+    img:hover {
+      transform: translateY(-8px); /* Lifts image upward */
+    }
+
+    .image-link {
+      width: fit-content;
+      margin: auto;
+    }
+    
 }
 
 
@@ -108,6 +120,7 @@
 
     h2 {
         margin-top: 2.5%;
+        margin-bottom: 1.5%;
     }
   }
   
