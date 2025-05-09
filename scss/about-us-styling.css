@@ -28,9 +28,9 @@
     padding-top: 0.8%;
     padding-bottom: 0.8%;
     border-radius: 12px;
-    margin-top: 5%;
+    margin-top: 1.5%;
     margin-bottom: 3%;
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
 * {
@@ -424,9 +424,9 @@ footer nav a {
     padding-top: 0.8%;
     padding-bottom: 0.8%;
     border-radius: 12px;
-    margin-top: 5%;
+    margin-top: 1.5%;
     margin-bottom: 3%;
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
 .tradingview-widget-container__widget {
@@ -530,6 +530,7 @@ header p {
   display: block;
   padding: 10px 15px;
   margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
 }
 
 .section1 {
@@ -698,8 +699,8 @@ h1 {
 }
 
 .text-and-line.second {
-  top: 30%;
-  left: -8%;
+  top: 32%;
+  left: -6%;
   flex-direction: row-reverse;
 }
 
@@ -797,7 +798,7 @@ footer nav {
   }
   .plant-container {
     margin-top: 15%;
-    max-width: 750px;
+    max-width: 600px;
     width: 80%;
   }
   .plant-container .line {
@@ -808,7 +809,7 @@ footer nav {
     margin-top: 10%;
   }
   .plant-container .text-and-line {
-    max-width: 400px;
+    max-width: 300px;
     left: 11%;
     top: -12%;
   }
@@ -820,9 +821,9 @@ footer nav {
     font-size: 1.5rem;
   }
   .plant-container .text-and-line.second {
-    max-width: 150px;
+    max-width: 125px;
     top: 25%;
-    left: -1%;
+    left: 2%;
   }
   .plant-container .text-and-line.second .text-content {
     align-items: left;
@@ -830,8 +831,8 @@ footer nav {
   }
   .plant-container .text-and-line.third {
     max-width: 150px;
-    top: 35%;
-    left: 62%;
+    top: 38%;
+    left: 60%;
   }
   .plant-container .text-and-line.third .text-content {
     align-items: right;

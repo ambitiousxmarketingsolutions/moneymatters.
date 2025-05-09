@@ -38,9 +38,9 @@ html {
     padding-top: 0.8%;
     padding-bottom: 0.8%;
     border-radius: 12px;
-    margin-top: 5%;
+    margin-top: 1.5%;
     margin-bottom: 3%;
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
 .tradingview-widget-container__widget {
@@ -144,6 +144,7 @@ header p {
   display: block;
   padding: 10px 15px;
   margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
 }
 
 .section1 {
@@ -242,9 +243,9 @@ h1 {
     padding-top: 0.8%;
     padding-bottom: 0.8%;
     border-radius: 12px;
-    margin-top: 5%;
+    margin-top: 1.5%;
     margin-bottom: 3%;
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
 #join-us {
@@ -630,7 +631,6 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column;
-  border-bottom: 3px solid black;
   padding-bottom: 2.5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -739,6 +739,10 @@ footer {
   margin-bottom: 15px;
 }
 
+#join-us {
+  margin-top: -5%;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -749,5 +753,11 @@ footer {
   }
   li {
     margin-left: 3%;
+  }
+  .section1 img {
+    width: 350px;
+  }
+  #join-us {
+    margin-top: -1%;
   }
 }/*# sourceMappingURL=indiv-tool-styling.css.map */

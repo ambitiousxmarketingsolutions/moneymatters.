@@ -11,7 +11,6 @@
 .section1 {
     @include center(horizontal);
     @include flex-column();
-    border-bottom: 3px solid black;
     padding-bottom: 2.5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -131,6 +130,10 @@
     border-radius: 4px;
     margin-bottom: 15px;
   }
+
+  #join-us {
+    margin-top: -5%;
+  }
   
 
 
@@ -147,5 +150,13 @@
 
     li {
         margin-left: 3%;
+    }
+
+    .section1 img {
+      width: 350px;
+    }
+
+    #join-us {
+      margin-top: -1%;
     }
 }
