@@ -205,10 +205,10 @@ h1 {
 }
 @media screen and (min-width: 1800px) {
   body .top {
-    top: 6%;
+    top: 7%;
   }
   header p {
-    top: 8%;
+    top: 7%;
   }
 }
 * {
