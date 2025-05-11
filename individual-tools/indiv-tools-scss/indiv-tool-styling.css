@@ -45,10 +45,10 @@ html {
 }
 @media (min-width: 1367px) {
   .top {
-    top: 6%;
+    top: 8%;
   }
   header p {
-    top: 7%;
+    top: 8%;
   }
 }
 .tradingview-widget-container__widget {
