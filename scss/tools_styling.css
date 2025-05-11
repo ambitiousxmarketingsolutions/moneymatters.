@@ -457,10 +457,10 @@ footer nav a {
 }
 @media (min-width: 1367px) {
   .top {
-    top: 10%;
+    top: 6%;
   }
   header p {
-    top: 11%;
+    top: 7%;
   }
 }
 .tradingview-widget-container__widget {
