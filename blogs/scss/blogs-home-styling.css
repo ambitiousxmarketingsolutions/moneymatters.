@@ -33,14 +33,6 @@
     font-size: 2.5rem;
   }
 }
-@media (min-width: 1367px) {
-  .top {
-    top: 8% !important;
-  }
-  header p {
-    top: 8% !important;
-  }
-}
 .tradingview-widget-container__widget {
   min-height: 30px; /* Set a safe minimum height */
   margin-bottom: 10px;
@@ -209,6 +201,14 @@ h1 {
   .section1 {
     margin-top: 10%;
     overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 1800px) {
+  body .top {
+    top: 8%;
+  }
+  header p {
+    top: 8%;
   }
 }
 * {
