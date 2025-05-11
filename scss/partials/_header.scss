@@ -3,6 +3,17 @@
 @import 'links';
 
 
+@media (min-width: 1367px) {
+    
+    .top {
+        top: 10%;
+
+    }
+
+    header p {
+        top: 11%;
+    }
+}
 .tradingview-widget-container__widget {
     min-height: 30px;  /* Set a safe minimum height */
     margin-bottom: 10px;
