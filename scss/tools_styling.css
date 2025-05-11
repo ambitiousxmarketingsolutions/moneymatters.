@@ -627,7 +627,7 @@ h1 {
 }
 @media screen and (min-width: 1800px) {
   body .top {
-    top: 7%;
+    top: 6%;
   }
   header p {
     top: 8%;
