@@ -6,44 +6,24 @@
 
   let toolsClickedOnce = false;
 
-  // Handle click on "Tools"
   toolsToggle.addEventListener("click", function (e) {
     if (window.innerWidth <= 768) {
       if (!toolsClickedOnce) {
-        e.preventDefault(); // Stop the link on first click
+        e.preventDefault(); // Prevent navigation on first click
         toolsDropdown.classList.add("show-menu");
         toolsClickedOnce = true;
-
-        // Reset if second click doesn't happen in 3 seconds
+  
         setTimeout(() => {
           toolsClickedOnce = false;
         }, 3000);
       } else {
-        // Second click - allow navigation
-        toolsHoverdown.classList.remove("show-menu");
+        e.preventDefault(); // Just in case
+        toolsDropdown.classList.remove("show-menu");
         toolsClickedOnce = false;
-        // Let default link behavior happen
+  
+        // Manually go to the link
+        window.location.href = toolsToggle.href;
       }
     }
   });
-
-  // Close dropdown if clicking outside
-  document.addEventListener("click", function (e) {
-    if (
-      window.innerWidth <= 768 &&
-      !toolsHoverdown.contains(e.target) &&
-      e.target !== toolsToggle
-    ) {
-      toolsHoverdown.classList.remove("show-menu");
-      toolsClickedOnce = false;
-    }
-  });
-
-  // Reset when hamburger is clicked (menu toggle)
-  hamburger.addEventListener("click", function () {
-    toolsHoverdown.classList.remove("show-menu"); // Reset dropdown
-    toolsClickedOnce = false;
-  });
-
   
-      
