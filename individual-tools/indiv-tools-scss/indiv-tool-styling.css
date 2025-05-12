@@ -771,6 +771,9 @@ footer {
   .tool-card .download-button {
     font-size: 1.5rem;
   }
+  .tool-grid {
+    margin-right: 10%;
+  }
   .tool-card img {
     width: 100%;
   }
