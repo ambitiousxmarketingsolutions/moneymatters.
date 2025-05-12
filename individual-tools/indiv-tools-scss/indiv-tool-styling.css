@@ -772,8 +772,7 @@ footer {
     font-size: 1.5rem;
   }
   .tool-grid {
-    margin-right: 20%;
-    gap: 40px;
+    gap: 25px;
   }
   .tool-card img {
     width: 100%;
