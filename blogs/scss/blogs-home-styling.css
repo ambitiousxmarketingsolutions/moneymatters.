@@ -572,6 +572,32 @@ footer {
     text-align: center !important;
   }
 }
+.green {
+  color: #61AC74;
+  font-weight: bold;
+}
+
+.black-white {
+  background-color: black;
+  color: white;
+}
+
+.lightblue {
+  color: rgb(116, 175, 197);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .blog-hero {
   background-image: url("../../images/blog-background.png");
   background-repeat: no-repeat;
