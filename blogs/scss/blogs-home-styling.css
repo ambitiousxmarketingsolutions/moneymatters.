@@ -170,7 +170,7 @@ h1 {
     font-size: 10px !important;
   }
   .hamburger {
-    top: 13%;
+    top: 14%;
   }
   .hoverdown {
     width: 100%;
@@ -601,10 +601,6 @@ footer {
   padding: 60px 20px;
   background-color: white;
 }
-.blog-posts h2 {
-  font-size: 80px;
-  color: gray;
-}
 
 .blog-card {
   background-color: #f9f9f9;
@@ -615,6 +611,9 @@ footer {
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.blog-card a {
+  text-decoration: none;
+}
 .blog-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -623,6 +622,12 @@ footer {
   font-size: 1.5rem;
   margin-bottom: 15px;
   color: black;
+}
+.blog-card img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 2.5%;
 }
 .blog-card .blog-excerpt {
   font-size: 1rem;
@@ -641,6 +646,34 @@ footer {
 }
 .blog-card .read-more:hover {
   background-color: #333;
+}
+
+.blog-content {
+  margin: auto;
+  padding: 6%;
+}
+.blog-content img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.blog-content h1 {
+  font-size: 80px;
+}
+.blog-content h2, .blog-content h3 {
+  margin-bottom: 1%;
+}
+.blog-content h2 {
+  font-size: 40px;
+}
+.blog-content h3 {
+  font-size: 35px;
+}
+.blog-content p {
+  font-size: 25px;
+  margin-bottom: 2.5%;
 }
 
 @media screen and (max-width: 768px) {

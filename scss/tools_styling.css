@@ -592,7 +592,7 @@ h1 {
     font-size: 10px !important;
   }
   .hamburger {
-    top: 13%;
+    top: 14%;
   }
   .hoverdown {
     width: 100%;
@@ -875,13 +875,8 @@ footer nav {
     gap: 10px;
   }
   .tools .download-button {
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 0.8%;
-    padding-bottom: 0.8%;
-    border-radius: 12px;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 }/*# sourceMappingURL=tools_styling.css.map */

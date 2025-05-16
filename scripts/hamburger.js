@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const nav = document.querySelector(".top");
 
     // Check if the screen size is mobile (for example, max-width of 768px)
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const isMobile = window.matchMedia("(max-width: 1024px)").matches;
 
     if (isMobile) {
         // Force nav to be hidden on load

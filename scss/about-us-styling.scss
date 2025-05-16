@@ -215,7 +215,7 @@ h1 {
         }
 
         .coin.five {
-            top: 15%;
+            top: 25%;
             left: 5%;
         }
         .coin.six {
@@ -265,8 +265,8 @@ h1 {
 
         .text-and-line.third {
             max-width: 150px;
-            top: 38%;
-            left: 60%;
+            top: 39%;
+            left: 59%;
             
             .text-content{
                 align-items: right;
@@ -346,6 +346,182 @@ h1 {
       .social-media {
         bottom: 50px;
       }
+
+
+}
+
+
+/* Tablets (iPads) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* iPad styles */
+  html, main {
+    overflow-x: hidden;
+   }
+
+   h1 {
+       font-size: $font-h1-mobile;
+   }
+
+   h2 {
+       font-size: $font-h2-mobile;
+   }
+
+   .section1 h2, .section2 div h2 {
+       font-size: $font-h2-mobile;
+   }
+
+   .section2 {
+
+       .coin.one {
+           top: 20%;
+       }
+
+       .coin.two {
+           top: 40%;
+           right: 30%;
+       }
+
+       .coin.three {
+           top: 80%;
+           right: 2.5%;
+       }
+
+       .coin.four {
+           top: 70%;
+       }
+
+       .coin.five {
+           top: 25%;
+           left: 5%;
+       }
+       .coin.six {
+           top: 15%;
+           right: 10%;
+       }
+   }
+
+   .plant-container {
+       margin-top: 15%;
+       max-width: 600px;
+       width: 80%;
+
+       .line {
+           display: none;
+       }
+
+       .plant-image {
+           width: 75%;
+           margin-top: 10%;
+       }
+
+       .text-and-line {
+           max-width: 300px;
+           left: 11%;
+           top: -12%;
+
+           .text-content{
+               align-items: center;
+               text-align: center;
+           }
+
+           h2 {
+               font-size: $font-h2-mobile;
+           }
+       }
+
+       .text-and-line.second {
+           max-width: 125px;
+           top: 25%;
+           left: 2%;
+           .text-content{
+               align-items: left;
+               text-align: left;
+           }
+       }
+
+       .text-and-line.third {
+           max-width: 150px;
+           top: 39%;
+           left: 59%;
+           
+           .text-content{
+               align-items: right;
+               text-align: right;
+           }
+       }
+
+       .text-and-line.fourth {
+           top: 95%;
+
+           .text-content {
+               align-items: center;
+               text-align: center;
+           }
+           
+       }
+
+       p {
+           font-size: $font-p-mobile;
+       }
+   }
+
+   h3 {
+       font-size: $font-h3-mobile;
+   }
+
+   p {
+       font-size: $font-p-mobile;
+   }
+
+   .section1 {
+       margin-top: 10%;
+   }
+
+   footer p {
+       margin-left: 5%;
+       font-size: $font-p-mobile;
+      }
+   
+      .credits p {
+       font-size: $font-p-mobile;
+      }
+   
+   
+      .credits a {
+       margin-left: 5px;
+       font-size: $font-a-mobile;
+     }
+
+     .section3 {
+
+       margin-top: 30%;
+   
+       h2 {
+           font-size: $font-h2-mobile;
+       }
+
+       h3 {
+           font-size: $font-h3-mobile;
+       }
+
+       p {
+           font-size: $font-p-mobile;
+       }
+     }
+
+     .connection-container {
+       gap: 0px;
+       
+       div {
+           text-align: center;
+       }
+
+
+     }
+
+     .social-media {
+       bottom: 50px;
+     }
 
 
 }

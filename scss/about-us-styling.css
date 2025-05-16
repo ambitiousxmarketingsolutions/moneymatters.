@@ -566,7 +566,7 @@ h1 {
     font-size: 10px !important;
   }
   .hamburger {
-    top: 13%;
+    top: 14%;
   }
   .hoverdown {
     width: 100%;
@@ -797,7 +797,7 @@ footer nav {
     top: 70%;
   }
   .section2 .coin.five {
-    top: 15%;
+    top: 25%;
     left: 5%;
   }
   .section2 .coin.six {
@@ -839,8 +839,139 @@ footer nav {
   }
   .plant-container .text-and-line.third {
     max-width: 150px;
-    top: 38%;
-    left: 60%;
+    top: 39%;
+    left: 59%;
+  }
+  .plant-container .text-and-line.third .text-content {
+    align-items: right;
+    text-align: right;
+  }
+  .plant-container .text-and-line.fourth {
+    top: 95%;
+  }
+  .plant-container .text-and-line.fourth .text-content {
+    align-items: center;
+    text-align: center;
+  }
+  .plant-container p {
+    font-size: 0.85rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.85rem;
+  }
+  .section1 {
+    margin-top: 10%;
+  }
+  footer p {
+    margin-left: 5%;
+    font-size: 0.85rem;
+  }
+  .credits p {
+    font-size: 0.85rem;
+  }
+  .credits a {
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+  .section3 {
+    margin-top: 30%;
+  }
+  .section3 h2 {
+    font-size: 1.5rem;
+  }
+  .section3 h3 {
+    font-size: 1rem;
+  }
+  .section3 p {
+    font-size: 0.85rem;
+  }
+  .connection-container {
+    gap: 0px;
+  }
+  .connection-container div {
+    text-align: center;
+  }
+  .social-media {
+    bottom: 50px;
+  }
+}
+/* Tablets (iPads) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* iPad styles */
+  html, main {
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .section1 h2, .section2 div h2 {
+    font-size: 1.5rem;
+  }
+  .section2 .coin.one {
+    top: 20%;
+  }
+  .section2 .coin.two {
+    top: 40%;
+    right: 30%;
+  }
+  .section2 .coin.three {
+    top: 80%;
+    right: 2.5%;
+  }
+  .section2 .coin.four {
+    top: 70%;
+  }
+  .section2 .coin.five {
+    top: 25%;
+    left: 5%;
+  }
+  .section2 .coin.six {
+    top: 15%;
+    right: 10%;
+  }
+  .plant-container {
+    margin-top: 15%;
+    max-width: 600px;
+    width: 80%;
+  }
+  .plant-container .line {
+    display: none;
+  }
+  .plant-container .plant-image {
+    width: 75%;
+    margin-top: 10%;
+  }
+  .plant-container .text-and-line {
+    max-width: 300px;
+    left: 11%;
+    top: -12%;
+  }
+  .plant-container .text-and-line .text-content {
+    align-items: center;
+    text-align: center;
+  }
+  .plant-container .text-and-line h2 {
+    font-size: 1.5rem;
+  }
+  .plant-container .text-and-line.second {
+    max-width: 125px;
+    top: 25%;
+    left: 2%;
+  }
+  .plant-container .text-and-line.second .text-content {
+    align-items: left;
+    text-align: left;
+  }
+  .plant-container .text-and-line.third {
+    max-width: 150px;
+    top: 39%;
+    left: 59%;
   }
   .plant-container .text-and-line.third .text-content {
     align-items: right;

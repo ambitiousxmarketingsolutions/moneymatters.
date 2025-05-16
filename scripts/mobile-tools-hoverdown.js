@@ -7,7 +7,7 @@
   let toolsClickedOnce = false;
 
   toolsToggle.addEventListener("click", function (e) {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1024) {
       if (!toolsClickedOnce) {
         e.preventDefault(); // Prevent navigation on first click
         toolsDropdown.classList.add("show-menu");
