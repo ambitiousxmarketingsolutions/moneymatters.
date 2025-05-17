@@ -93,9 +93,15 @@
     }
   }
 
+  .blog-layout {
+    display: flex;
+  }
+
   .blog-content {
     margin: auto;
-    padding: 6%;
+    padding-top: 5%;
+    padding-left: 10%;
+    margin-right: 5%;
 
     img {
       display: block;

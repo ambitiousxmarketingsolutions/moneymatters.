@@ -1,0 +1,89 @@
+.blog-sidebar {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  font-family: "Segoe UI", sans-serif;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 2.5%;
+  margin-right: 5%;
+}
+.blog-sidebar .sidebar-inner {
+  position: sticky;
+  top: 80px;
+}
+
+.sidebar-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 10px 14px;
+  background: #61AC74;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta-box h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.cta-box p {
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #61AC74;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #4e8f5f;
+}
+
+.popular-posts ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.popular-posts li {
+  margin-bottom: 10px;
+}
+
+.popular-posts a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.popular-posts a:hover {
+  color: #61AC74;
+}/*# sourceMappingURL=sidebar-styling.css.map */
