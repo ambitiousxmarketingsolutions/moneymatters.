@@ -131,6 +131,16 @@
     p {
       font-size: $font-p-size;
       margin-bottom: 2.5%;
+      padding-bottom: 2.5%;
+      border-bottom: 1px solid gray;
+    }
+
+    .no-line {
+      border-bottom: none;
+    }
+
+    ul li::marker {
+      font-size: 1.5rem;
     }
 
   }

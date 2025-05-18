@@ -708,6 +708,14 @@ footer {
 .blog-content p {
   font-size: 25px;
   margin-bottom: 2.5%;
+  padding-bottom: 2.5%;
+  border-bottom: 1px solid gray;
+}
+.blog-content .no-line {
+  border-bottom: none;
+}
+.blog-content ul li::marker {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
