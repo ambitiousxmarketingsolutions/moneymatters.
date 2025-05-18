@@ -160,24 +160,24 @@
         <div class="sidebar-inner">
         <!-- Search Bar -->
         <div class="sidebar-box search-box">
-          <input type="text" placeholder="Search blog..." />
-          <button>🔍</button>
+            <input type="text" id="searchInput" placeholder="Search blog..." autocomplete="off" onkeyup="searchPosts()" />
+            <button onclick="searchAndRedirect()">🔍</button>
         </div>
       
         <!-- CTA Box -->
         <div class="sidebar-box cta-box">
           <h3>🎯 Start Budgeting Smarter</h3>
           <p>Download our free Basic Budget Planner and take control of your finances today.</p>
-          <a href="/tools/basic-budget-tool" class="cta-button">Get the Free Tool</a>
+          <a href="../individual-tools/basic-tools/basic-budget-tool.html" class="cta-button">Get the Free Tool</a>
         </div>
       
         <!-- Popular Posts -->
         <div class="sidebar-box popular-posts">
           <h3>🔥 Popular Posts</h3>
           <ul>
-            <li><a href="/blogs/blog2">5 Ways to Cut Monthly Expenses</a></li>
-            <li><a href="/blogs/blog3">Beginner's Guide to Budgeting</a></li>
-            <li><a href="/blogs/blog4">How to Build Credit from Scratch</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
           </ul>
         </div>
     </div>
@@ -249,6 +249,7 @@
 
 <script src="../scripts/hamburger.js"></script>
 <script src="../../scripts/mobile-tools-hoverdown.js"></script>
+<script src="blog-scripts/search-filtering.js"></script>
 
 </body>
 

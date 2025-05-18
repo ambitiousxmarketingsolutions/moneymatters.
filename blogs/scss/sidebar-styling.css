@@ -86,4 +86,16 @@
 
 .popular-posts a:hover {
   color: #61AC74;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-sidebar {
+    max-width: 150px;
+  }
+  .search-box {
+    flex-direction: column;
+  }
+  .search-box input {
+    width: 100px;
+  }
 }/*# sourceMappingURL=sidebar-styling.css.map */

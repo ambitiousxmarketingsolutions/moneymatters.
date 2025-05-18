@@ -178,6 +178,7 @@ h2 {
 .tools-container {
   margin-top: 5%;
     @include center(horizontal);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .tools-container a {

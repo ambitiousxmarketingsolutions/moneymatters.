@@ -102,11 +102,12 @@
     padding-top: 5%;
     padding-left: 10%;
     margin-right: 5%;
+    margin-bottom: 2.5%;
 
     img {
       display: block;
       margin: auto;
-      width: 50%;
+      width: 60%;
       margin-top: 2.5%;
       margin-bottom: 2.5%;
     }
@@ -145,6 +146,27 @@
         h2 {
             text-align: center;
         }
+    }
+
+    .blog-content {
+
+
+      p {
+        font-size: $font-p-mobile;
+      }
+
+
+      h1 {
+        font-size: $font-h1-mobile;
+      }
+
+      h2 {
+        font-size: $font-h2-mobile;
+      }
+
+      h3 {
+        font-size: $font-h3-mobile;
+      }
     }
 
   }
