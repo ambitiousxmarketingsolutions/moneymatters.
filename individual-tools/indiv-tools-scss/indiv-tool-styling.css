@@ -655,11 +655,15 @@ footer {
 .section1 a {
   margin-bottom: 2.5%;
 }
-.section1 img {
+.section1 img, .section1 iframe {
   width: 680px;
   margin: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: inline-block;
+}
+.section1 iframe {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 .section1 img:hover {
   transform: translateY(-8px); /* Lifts image upward */
@@ -763,7 +767,7 @@ footer {
   li {
     margin-left: 3%;
   }
-  .section1 img {
+  .section1 img, iframe {
     width: 350px;
   }
   #join-us {

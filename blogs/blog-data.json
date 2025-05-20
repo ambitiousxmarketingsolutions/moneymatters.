@@ -3,6 +3,12 @@
       "title": "Online Financial Calculator",
       "excerpt": "Your Friendly Guide to Smarter Money Choices",
       "url": "blog1.html"
+    },
+
+    {
+        "title": "How Can Financial Literacy Help You?",
+        "excerpt": "A Friendly Guide to Understanding Your Money",
+        "url": "blog2.html"
     }
 
 ]

@@ -29,11 +29,16 @@
         margin-bottom: 2.5%;
     }
 
-    img {
+    img, iframe {
         width: 680px;
         margin: auto;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         display: inline-block;
+    }
+
+    iframe {
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
     }
 
     img:hover {
@@ -152,7 +157,7 @@
         margin-left: 3%;
     }
 
-    .section1 img {
+    .section1 img, iframe {
       width: 350px;
     }
 

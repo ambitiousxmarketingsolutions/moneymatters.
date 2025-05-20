@@ -681,6 +681,7 @@ footer {
 
 .blog-content {
   margin: auto;
+  margin-top: 5%;
   padding-top: 5%;
   padding-left: 10%;
   margin-right: 5%;
@@ -724,6 +725,10 @@ footer {
   }
   .blog-posts h2 {
     text-align: center;
+  }
+  .blog-content {
+    margin-right: auto;
+    padding-right: 10%;
   }
   .blog-content p {
     font-size: 0.85rem;
