@@ -102,6 +102,10 @@
         margin-left: 2%;
         margin-bottom: 15px;
     }
+
+    iframe {
+      @include center(horizontal);
+    }
   }
   
 
@@ -130,7 +134,7 @@
   
   
   .tool-card img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 4px;
     margin-bottom: 15px;

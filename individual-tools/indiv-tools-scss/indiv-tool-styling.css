@@ -722,6 +722,11 @@ footer {
   margin-left: 2%;
   margin-bottom: 15px;
 }
+.dropdown-details iframe {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 .tool-grid {
   display: grid;
@@ -746,7 +751,7 @@ footer {
 }
 
 .tool-card img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 4px;
   margin-bottom: 15px;
