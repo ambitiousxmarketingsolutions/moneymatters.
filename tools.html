@@ -138,7 +138,7 @@
                     <a href="individual-tools/basic-tools/basic-investment-tool .html" class="download-button">Download</a>
                 </div>
 
-                <div class="tools" id="last-listed-tool">
+                <div class="tools">
                     <div class="tools-content">
                         <div>
                             <h3><a href="individual-tools/basic-tools/net-worth-calculator.html">Net Worth Calculator Tool</a></h3>
@@ -147,6 +147,17 @@
                         <a href="individual-tools/basic-tools/net-worth-calculator.html"><img src="images/net-worth-calculator-laptop.png" alt="Net Worth Calculator Tool"></a>
                     </div>
                     <a href="individual-tools/basic-tools/net-worth-calculator.html" class="download-button">Download</a>
+                </div>
+
+                <div class="tools" id="last-listed-tool">
+                    <div class="tools-content">
+                        <div>
+                            <h3><a href="individual-tools/advanced-tools/advanced-investment-tool.html">Financial Health Scoring Tool</a></h3>
+                            <p></p> <!--<a href="">Explanation Video</a></p>-->
+                        </div>
+                        <a href="individual-tools/basic-tools/financial-health-scoring-tool.html"><img src="images/financial-score-laptop.PNG" alt="Financial Health Scoring Tool"></a>
+                    </div>
+                    <a href="individual-tools/basic-tools/financial-health-scoring-tool.html" class="download-button">Download</a>
                 </div>
             </section>
 
@@ -173,6 +184,8 @@
                     </div>
                     <a href="individual-tools/advanced-tools/advanced-investment-tool.html" class="download-button">Download</a>
                 </div>
+
+                
             </section>
 
             <section class="section4" id="join-us">
@@ -186,7 +199,7 @@
 
                     <div class="form-container">
                         <h3>Join the MoneyMatters. Community!</h3>
-                        <form id="signup-form" action="https://formspree.io/f/xpwdjagd" method="POST" target="_blank">
+                        <form id="signup-form" action="POST" target="_blank" data-netlify="true">
                             <div class="row">
                               <div class="col">
                                 <input type="text" name="first_name" class="form-control" placeholder="First name">
@@ -198,6 +211,7 @@
                             <div class="row" id="email">
                                 <input type="text" name="email" class="form-control" placeholder="Email">
                             </div>
+                            <div data-netlify-recaptcha="true"></div>
                             <button type="submit" class="submit-btn">Submit</button>
                           </form>
                     </div>

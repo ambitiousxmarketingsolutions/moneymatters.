@@ -103,9 +103,6 @@
         margin-bottom: 15px;
     }
 
-    iframe {
-      @include center(horizontal);
-    }
   }
   
 
@@ -129,6 +126,7 @@
     h2 {
         margin-top: 2.5%;
         margin-bottom: 1.5%;
+        font-size: $font-h2-size;
     }
   }
   
@@ -161,7 +159,7 @@
         margin-left: 3%;
     }
 
-    .section1 img, iframe {
+    .section1 img, .section1 iframe {
       width: 350px;
     }
 
@@ -181,4 +179,5 @@
     .tool-card img {
       width: 100%;
     }
+
 }

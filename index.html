@@ -183,7 +183,7 @@
                         <div>
                             <h3>Join the MoneyMatters. Community!</h3>
                         </div>
-                        <form id="signup-form" action="https://formspree.io/f/xpwdjagd" method="POST" target="_blank">
+                        <form id="signup-form" action="POST" target="_blank" data-netlify="true">
                             <div class="row">
                               <div class="col">
                                 <input type="text" name="first_name" class="form-control" placeholder="First name">
@@ -195,6 +195,7 @@
                             <div class="row" id="email">
                                 <input type="text" name="email" class="form-control" placeholder="Email">
                             </div>
+                            <div data-netlify-recaptcha="true"></div>
                             <button type="submit" class="submit-btn">Submit</button>
                           </form>
                     </div>

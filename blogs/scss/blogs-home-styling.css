@@ -718,6 +718,10 @@ footer {
 .blog-content ul li::marker {
   font-size: 1.5rem;
 }
+.blog-content ul li p {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
 
 @media screen and (max-width: 768px) {
   .blog-hero h1 {

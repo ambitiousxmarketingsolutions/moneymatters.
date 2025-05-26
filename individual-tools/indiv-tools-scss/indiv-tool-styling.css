@@ -722,11 +722,6 @@ footer {
   margin-left: 2%;
   margin-bottom: 15px;
 }
-.dropdown-details iframe {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 
 .tool-grid {
   display: grid;
@@ -748,6 +743,7 @@ footer {
 .tool-card h2 {
   margin-top: 2.5%;
   margin-bottom: 1.5%;
+  font-size: 40px;
 }
 
 .tool-card img {
@@ -772,7 +768,7 @@ footer {
   li {
     margin-left: 3%;
   }
-  .section1 img, iframe {
+  .section1 img, .section1 iframe {
     width: 350px;
   }
   #join-us {
